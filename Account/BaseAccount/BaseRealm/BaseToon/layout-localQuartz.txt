@@ -1,0 +1,31 @@
+Version: 1
+Frame: FocusFrame
+FrameLevel: 1
+Anchor: TOPLEFT
+X: 250
+Y: -240
+W: 232
+H: 100
+
+Frame: Quartz3CastBarPlayer
+FrameLevel: 1
+Anchor: BOTTOM
+X: 5
+Y: 275
+W: 310
+H: 35
+Frame: Quartz3CastBarFocus
+FrameLevel: 1
+Anchor: TOP
+X: -230
+Y: -290
+W: 210
+H: 30
+Frame: Quartz3CastBarPet
+FrameLevel: 1
+Anchor: TOPLEFT
+X: 0
+Y: -120
+W: 210
+H: 30
+
