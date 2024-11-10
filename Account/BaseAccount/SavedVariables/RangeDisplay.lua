@@ -4,28 +4,13 @@ RangeDisplayDB3 = {
 		["LibDualSpec-1.0"] = {
 		},
 	},
+	["profileKeys"] = {
+	},
 	["profiles"] = {
 		["Default"] = {
 			["locked"] = true,
 			["mute"] = true,
 			["units"] = {
-				["playertarget"] = {
-					["maxRangeOnly"] = true,
-					["lrSection"] = {
-						["enabled"] = true,
-					},
-					["oorSection"] = {
-						["range"] = 41,
-					},
-					["defaultSection"] = {
-						["useText"] = false,
-					},
-					["y"] = -125,
-					["x"] = 5,
-					["crSection"] = {
-						["useText"] = false,
-					},
-				},
 				["mouseover"] = {
 					["maxRangeOnly"] = true,
 					["oorSection"] = {
@@ -52,8 +37,8 @@ RangeDisplayDB3 = {
 						["range"] = 41,
 					},
 					["enabled"] = true,
-					["y"] = 0,
-					["x"] = 140,
+					["y"] = -95,
+					["x"] = 0,
 					["defaultSection"] = {
 						["useText"] = false,
 					},
@@ -61,9 +46,8 @@ RangeDisplayDB3 = {
 						["useText"] = false,
 					},
 				},
-				["focus"] = {
-					["x"] = -260,
-					["point"] = "TOP",
+				["playertarget"] = {
+					["fontSize"] = 30,
 					["maxRangeOnly"] = true,
 					["lrSection"] = {
 						["enabled"] = true,
@@ -74,8 +58,25 @@ RangeDisplayDB3 = {
 					["defaultSection"] = {
 						["useText"] = false,
 					},
-					["y"] = -235,
-					["relPoint"] = "TOP",
+					["y"] = -110,
+					["x"] = 5,
+					["crSection"] = {
+						["useText"] = false,
+					},
+				},
+				["focus"] = {
+					["maxRangeOnly"] = true,
+					["lrSection"] = {
+						["enabled"] = true,
+					},
+					["oorSection"] = {
+						["range"] = 41,
+					},
+					["defaultSection"] = {
+						["useText"] = false,
+					},
+					["y"] = 275,
+					["x"] = -290,
 					["crSection"] = {
 						["useText"] = false,
 					},
