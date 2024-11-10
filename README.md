@@ -2,9 +2,12 @@
 
 New interface for enUS client
 
-## New release 0.0.0.1
+## Release 1.0.0
+
+- Add base global settings for most of used in /Interface/ addons
+
+## Base release 0.0.0.1
 
 - Base settings set
 - Use BaseAccount/BaseRealm/BaseToon as template for new instance
-
 

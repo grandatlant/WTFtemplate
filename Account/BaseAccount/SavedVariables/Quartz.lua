@@ -2,6 +2,13 @@
 Quartz3DB = {
 	["namespaces"] = {
 		["Swing"] = {
+			["profiles"] = {
+				["Default"] = {
+					["swinggap"] = -5,
+					["swingheight"] = 5,
+					["swingalpha"] = 0.75,
+				},
+			},
 		},
 		["Buff"] = {
 		},
@@ -17,11 +24,18 @@ Quartz3DB = {
 		["Pet"] = {
 			["profiles"] = {
 				["Default"] = {
-					["w"] = 150,
+					["timetextx"] = 0,
+					["h"] = 20,
+					["timefontsize"] = 9,
 					["y"] = 1050,
-					["iconposition"] = "Both",
+					["iconalpha"] = 0.75,
+					["icongap"] = 5,
+					["iconposition"] = "right",
+					["border"] = "None",
 					["fontsize"] = 9,
-					["x"] = 20,
+					["texture"] = "BantoBar",
+					["nametextx"] = 0,
+					["x"] = 0,
 				},
 			},
 		},
@@ -30,20 +44,39 @@ Quartz3DB = {
 				["Default"] = {
 					["w"] = 300,
 					["y"] = 275,
+					["iconalpha"] = 0.75,
+					["icongap"] = 5,
+					["border"] = "None",
 					["fontsize"] = 12,
+					["texture"] = "BantoBar",
+					["nametextx"] = 0,
+					["timetextx"] = 0,
 					["x"] = 600,
 				},
 			},
 		},
 		["GCD"] = {
+			["profiles"] = {
+				["Default"] = {
+					["gcdalpha"] = 0.75,
+					["gcdheight"] = 5,
+					["gcdgap"] = -5,
+				},
+			},
 		},
 		["Focus"] = {
 			["profiles"] = {
 				["Default"] = {
-					["w"] = 185,
+					["timetextx"] = 0,
+					["h"] = 20,
+					["timefontsize"] = 9,
 					["y"] = 880,
-					["iconposition"] = "Both",
+					["icongap"] = 5,
+					["iconposition"] = "right",
+					["border"] = "None",
 					["fontsize"] = 9,
+					["texture"] = "BantoBar",
+					["nametextx"] = 0,
 					["x"] = 415,
 				},
 			},
@@ -51,9 +84,17 @@ Quartz3DB = {
 		["Target"] = {
 			["profiles"] = {
 				["Default"] = {
-					["y"] = 495,
+					["timetextx"] = 0,
+					["h"] = 20,
+					["timefontsize"] = 9,
+					["y"] = 500,
+					["iconalpha"] = 0.75,
+					["icongap"] = 5,
 					["iconposition"] = "left",
-					["fontsize"] = 12,
+					["border"] = "None",
+					["fontsize"] = 9,
+					["texture"] = "BantoBar",
+					["nametextx"] = 0,
 					["x"] = 650,
 				},
 			},
@@ -64,14 +105,22 @@ Quartz3DB = {
 			["profiles"] = {
 				["Default"] = {
 					["mirroroffset"] = -35,
-					["mirrorwidth"] = 80,
+					["mirrorspacing"] = 0,
+					["hideblizzmirrors"] = false,
+					["mirrorheight"] = 10,
+					["mirrortexture"] = "BantoBar",
+					["mirrorgap"] = 0,
+					["mirrorwidth"] = 100,
+					["mirroralpha"] = 0.75,
 				},
 			},
 		},
 		["Latency"] = {
 			["profiles"] = {
 				["Default"] = {
-					["lagalpha"] = 0.9,
+					["lagtextposition"] = "below",
+					["lagfontsize"] = 9,
+					["lagalpha"] = 0.75,
 				},
 			},
 		},
@@ -79,11 +128,13 @@ Quartz3DB = {
 	["profiles"] = {
 		["Default"] = {
 			["modules"] = {
-				["Flight"] = false,
+				["Timer"] = false,
 				["Buff"] = false,
 			},
 			["casttimeprecision"] = 3,
 		},
+	},
+	["profileKeys"] = {
 	},
 	["disabledModules"] = {
 		["Default"] = {

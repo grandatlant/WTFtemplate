@@ -1,7 +1,3 @@
-# Backups
-*.lua.bak
-*.old
-
 # Compiled Lua sources
 luac.out
 

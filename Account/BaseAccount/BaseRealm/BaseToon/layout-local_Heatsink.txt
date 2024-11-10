@@ -1,0 +1,17 @@
+Version: 1
+Frame: FocusFrame
+FrameLevel: 1
+Anchor: TOPLEFT
+X: 250
+Y: -240
+W: 232
+H: 100
+
+Frame: HeatsinkAnchor
+FrameLevel: 1
+Anchor: BOTTOM
+X: 5
+Y: 115
+W: 293
+H: 20
+

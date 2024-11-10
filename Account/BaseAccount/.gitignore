@@ -1,0 +1,4 @@
+# Backups
+*.lua.bak
+*.old
+
