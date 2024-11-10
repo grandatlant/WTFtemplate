@@ -1,0 +1,31 @@
+Version: 1
+Frame: FocusFrame
+FrameLevel: 1
+Anchor: TOPLEFT
+X: 250
+Y: -240
+W: 232
+H: 100
+
+Frame: RangeDisplayMainFrame_playertarget
+FrameLevel: 1
+Anchor: CENTER
+X: 5
+Y: -110
+W: 112
+H: 36
+Frame: RangeDisplayMainFrame_focus
+FrameLevel: 1
+Anchor: CENTER
+X: -290
+Y: 275
+W: 112
+H: 36
+Frame: RangeDisplayMainFrame_pet
+FrameLevel: 1
+Anchor: TOPLEFT
+X: 0
+Y: -95
+W: 112
+H: 36
+

@@ -5,7 +5,10 @@ RageBardb = {
 		["y"] = 435,
 		["x"] = 655,
 		["talentname"] = "Тактическое превосходство",
-		["width"] = 201,
-		["hidehealth"] = true,
+		["fontsize"] = 16,
+		["talentrank"] = 3,
+		["width"] = 200,
+		["font"] = "Arial Narrow",
+		["tex"] = "BantoBar",
 	},
 }

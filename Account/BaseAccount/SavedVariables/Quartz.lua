@@ -135,15 +135,6 @@ Quartz3DB = {
 		},
 	},
 	["profileKeys"] = {
-		["Shuhevich - Icecrown"] = "Default",
-		["Ahrimanzx - The Burning Crusade PTR"] = "Default",
-		["Jeynepoole - Icecrown"] = "Default",
-		["Rusorub - Icecrown"] = "Default",
-		["Zavisa - Icecrown"] = "Default",
-		["Ahrimanzx - Icecrown"] = "Default",
-		["Kizochka - Icecrown"] = "Default",
-		["Stonedgirl - Icecrown"] = "Default",
-		["Sbandera - Icecrown"] = "Default",
 	},
 	["disabledModules"] = {
 		["Default"] = {

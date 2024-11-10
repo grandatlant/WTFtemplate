@@ -14,7 +14,7 @@ DBM_SpellTimers_Settings = {
 			["enabled"] = true,
 			["spell"] = 871,
 			["cooldown"] = 12,
-			["bartext"] = "Shieldwall on %player",
+			["bartext"] = "Shield wall on %player",
 		}, -- [2]
 		{
 			["enabled"] = true,
@@ -26,7 +26,7 @@ DBM_SpellTimers_Settings = {
 			["enabled"] = true,
 			["spell"] = 2565,
 			["cooldown"] = 10,
-			["bartext"] = "Shieldblock on %player",
+			["bartext"] = "Shield block on %player",
 		}, -- [4]
 		{
 			["enabled"] = true,
@@ -98,7 +98,7 @@ DBM_SpellTimers_Settings = {
 			["enabled"] = true,
 			["spell"] = 2825,
 			["cooldown"] = 300,
-			["bartext"] = "Blood lust: %player",
+			["bartext"] = "Bloodlust: %player",
 		}, -- [16]
 		{
 			["enabled"] = true,
@@ -134,25 +134,25 @@ DBM_SpellTimers_Settings = {
 			["enabled"] = true,
 			["spell"] = 10278,
 			["cooldown"] = 300,
-			["bartext"] = "Protection: %player -> %target",
+			["bartext"] = "HoProtection: %player -> %target",
 		}, -- [22]
 		{
 			["enabled"] = true,
 			["spell"] = 6940,
 			["cooldown"] = 120,
-			["bartext"] = "Sacrifice: %player -> %target",
+			["bartext"] = "HoSacrifice: %player -> %target",
 		}, -- [23]
 		{
 			["enabled"] = true,
 			["spell"] = 1044,
 			["cooldown"] = 25,
-			["bartext"] = "Freedom: %player -> %target",
+			["bartext"] = "HoFreedom: %player -> %target",
 		}, -- [24]
 		{
 			["enabled"] = true,
 			["spell"] = 1038,
 			["cooldown"] = 120,
-			["bartext"] = "Salvation: %player -> %target",
+			["bartext"] = "HoSalvation: %player -> %target",
 		}, -- [25]
 		{
 			["enabled"] = true,
@@ -194,13 +194,13 @@ DBM_SpellTimers_Settings = {
 			["enabled"] = true,
 			["spell"] = 33206,
 			["cooldown"] = 144,
-			["bartext"] = "PSupression: %player -> %target",
+			["bartext"] = "PS: %player -> %target",
 		}, -- [32]
 		{
 			["enabled"] = true,
 			["spell"] = 10060,
 			["cooldown"] = 96,
-			["bartext"] = "PInfusion: %player -> %target",
+			["bartext"] = "PI: %player -> %target",
 		}, -- [33]
 		{
 			["enabled"] = true,
