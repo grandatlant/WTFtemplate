@@ -2,6 +2,10 @@
 
 New interface for enUS client
 
+## Release 1.1.0
+
+- Add MageNuggets
+
 ## Release 1.0.0
 
 - Add base global settings for most of used in /Interface/ addons
