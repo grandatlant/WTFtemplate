@@ -2,6 +2,10 @@
 
 New interface for enUS client
 
+## Hotfix 1.1.1
+
+- Fixed configs
+
 ## Release 1.1.0
 
 - Add MageNuggets
