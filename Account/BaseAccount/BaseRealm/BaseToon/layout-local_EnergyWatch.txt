@@ -1,12 +1,3 @@
-Version: 1
-Frame: FocusFrame
-FrameLevel: 1
-Anchor: TOPLEFT
-X: 250
-Y: -240
-W: 232
-H: 100
-
 Frame: EnergyWatchBar
 FrameLevel: 1
 Anchor: CENTER
