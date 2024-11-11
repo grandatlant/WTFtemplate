@@ -164,7 +164,7 @@ DBM_SpellTimers_Settings = {
 			["enabled"] = true,
 			["spell"] = 64205,
 			["cooldown"] = 120,
-			["bartext"] = "DSac CD: %player",
+			["bartext"] = "DiSac CD: %player",
 		}, -- [27]
 		{
 			["enabled"] = true,
