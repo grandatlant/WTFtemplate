@@ -11,6 +11,29 @@ Quartz3DB = {
 			},
 		},
 		["Buff"] = {
+			["profiles"] = {
+				["Default"] = {
+					["focusbuffs"] = false,
+					["targetoffset"] = -5,
+					["focusoffset"] = -5,
+					["focusspacing"] = 0,
+					["targetheight"] = 10,
+					["buffalpha"] = 0.75,
+					["focuswidth"] = 150,
+					["focusiconside"] = "right",
+					["targetbuffs"] = false,
+					["targetspacing"] = 0,
+					["targetgap"] = 0,
+					["targetanchor"] = "target",
+					["targetwidth"] = 210,
+					["targeticonside"] = "left",
+					["targetposition"] = "topleft",
+					["focusposition"] = "topright",
+					["focusgap"] = 0,
+					["focusheight"] = 10,
+					["focusanchor"] = "focus",
+				},
+			},
 		},
 		["Interrupt"] = {
 		},
@@ -28,6 +51,7 @@ Quartz3DB = {
 					["h"] = 20,
 					["timefontsize"] = 9,
 					["y"] = 1050,
+					["x"] = 0,
 					["iconalpha"] = 0.75,
 					["icongap"] = 5,
 					["iconposition"] = "right",
@@ -35,7 +59,6 @@ Quartz3DB = {
 					["fontsize"] = 9,
 					["texture"] = "BantoBar",
 					["nametextx"] = 0,
-					["x"] = 0,
 				},
 			},
 		},
@@ -48,9 +71,9 @@ Quartz3DB = {
 					["icongap"] = 5,
 					["border"] = "None",
 					["fontsize"] = 12,
-					["texture"] = "BantoBar",
 					["nametextx"] = 0,
 					["timetextx"] = 0,
+					["texture"] = "BantoBar",
 					["x"] = 600,
 				},
 			},
@@ -58,9 +81,9 @@ Quartz3DB = {
 		["GCD"] = {
 			["profiles"] = {
 				["Default"] = {
+					["gcdgap"] = -5,
 					["gcdalpha"] = 0.75,
 					["gcdheight"] = 5,
-					["gcdgap"] = -5,
 				},
 			},
 		},
@@ -88,6 +111,7 @@ Quartz3DB = {
 					["h"] = 20,
 					["timefontsize"] = 9,
 					["y"] = 500,
+					["x"] = 650,
 					["iconalpha"] = 0.75,
 					["icongap"] = 5,
 					["iconposition"] = "left",
@@ -95,7 +119,6 @@ Quartz3DB = {
 					["fontsize"] = 9,
 					["texture"] = "BantoBar",
 					["nametextx"] = 0,
-					["x"] = 650,
 				},
 			},
 		},
@@ -104,14 +127,15 @@ Quartz3DB = {
 		["Mirror"] = {
 			["profiles"] = {
 				["Default"] = {
-					["mirroroffset"] = -35,
+					["mirroroffset"] = 0,
 					["mirrorspacing"] = 0,
-					["hideblizzmirrors"] = false,
-					["mirrorheight"] = 10,
-					["mirrortexture"] = "BantoBar",
 					["mirrorgap"] = 0,
-					["mirrorwidth"] = 100,
+					["hideblizzmirrors"] = false,
 					["mirroralpha"] = 0.75,
+					["mirrortexture"] = "BantoBar",
+					["mirrorheight"] = 10,
+					["mirrorwidth"] = 100,
+					["mirrorposition"] = "bottomleft",
 				},
 			},
 		},
@@ -119,8 +143,8 @@ Quartz3DB = {
 			["profiles"] = {
 				["Default"] = {
 					["lagtextposition"] = "below",
-					["lagfontsize"] = 9,
 					["lagalpha"] = 0.75,
+					["lagfontsize"] = 9,
 				},
 			},
 		},
@@ -129,7 +153,6 @@ Quartz3DB = {
 		["Default"] = {
 			["modules"] = {
 				["Timer"] = false,
-				["Buff"] = false,
 			},
 			["casttimeprecision"] = 3,
 		},
