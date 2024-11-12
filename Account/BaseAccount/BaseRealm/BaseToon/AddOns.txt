@@ -56,8 +56,8 @@ OmniCC: enabled
 PallyPower: disabled
 PlateBuffs: disabled
 Postal: enabled
-RaidRoll: disabled
-RaidRoll_LootTracker: disabled
+RaidRoll: enabled
+RaidRoll_LootTracker: enabled
 RaidAchievement: disabled
 RaidAchievement_WotlkHeroics: disabled
 RaidAchievement_Naxxramas: disabled
