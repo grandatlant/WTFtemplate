@@ -4,7 +4,7 @@ TellMeWhen_Settings = {
 	["Version"] = "1.2.4",
 	["Groups"] = {
 		{
-			["Enabled"] = false,
+			["Enabled"] = true,
 			["Columns"] = 7,
 			["Scale"] = 1.4,
 			["Rows"] = 7,
@@ -648,12 +648,12 @@ TellMeWhen_Settings = {
 				}, -- [49]
 			},
 			["LBFGroup"] = false,
-			["PrimarySpec"] = false,
+			["PrimarySpec"] = true,
 			["SecondarySpec"] = false,
 			["OnlyInCombat"] = false,
 		}, -- [1]
 		{
-			["Enabled"] = false,
+			["Enabled"] = true,
 			["Columns"] = 7,
 			["Scale"] = 1.4,
 			["Rows"] = 7,
@@ -1298,11 +1298,11 @@ TellMeWhen_Settings = {
 			},
 			["LBFGroup"] = false,
 			["PrimarySpec"] = false,
-			["SecondarySpec"] = false,
+			["SecondarySpec"] = true,
 			["OnlyInCombat"] = false,
 		}, -- [2]
 		{
-			["Enabled"] = false,
+			["Enabled"] = true,
 			["Columns"] = 7,
 			["Scale"] = 1.4,
 			["Rows"] = 7,
@@ -1951,7 +1951,7 @@ TellMeWhen_Settings = {
 			["OnlyInCombat"] = false,
 		}, -- [3]
 		{
-			["Enabled"] = false,
+			["Enabled"] = true,
 			["Columns"] = 7,
 			["Scale"] = 1.4,
 			["Rows"] = 7,
@@ -2600,7 +2600,7 @@ TellMeWhen_Settings = {
 			["OnlyInCombat"] = false,
 		}, -- [4]
 		{
-			["Enabled"] = false,
+			["Enabled"] = true,
 			["Columns"] = 7,
 			["Scale"] = 1.96,
 			["Rows"] = 7,
@@ -3249,7 +3249,7 @@ TellMeWhen_Settings = {
 			["OnlyInCombat"] = false,
 		}, -- [5]
 		{
-			["Enabled"] = false,
+			["Enabled"] = true,
 			["Columns"] = 7,
 			["Scale"] = 3,
 			["Rows"] = 7,
@@ -3898,7 +3898,7 @@ TellMeWhen_Settings = {
 			["OnlyInCombat"] = false,
 		}, -- [6]
 		{
-			["Enabled"] = false,
+			["Enabled"] = true,
 			["Columns"] = 7,
 			["Scale"] = 2.8,
 			["Rows"] = 7,
@@ -4547,7 +4547,7 @@ TellMeWhen_Settings = {
 			["OnlyInCombat"] = false,
 		}, -- [7]
 		{
-			["Enabled"] = false,
+			["Enabled"] = true,
 			["Columns"] = 7,
 			["Scale"] = 2.8,
 			["Rows"] = 7,

@@ -1,0 +1,117 @@
+MACRO 16777235 "aggro" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod]Отвлекающий выстрел;[@focus,exists,help,nodead][@targettarget,exists,help,nodead][@target,exists,help,nodead][@mouseover,exists,help,nodead][@pet,exists,nodead][]Перенаправление
+END
+MACRO 16777223 "aimed" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod][spec:1]Залп;Прицельный выстрел
+/cast [spec:2]!Команда "Взять!"
+/use 10
+END
+MACRO 16777225 "arcane" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [spec:0,nomod]Разрывной выстрел;Чародейский выстрел
+/cast [spec:2]!Команда "Взять!"
+/use 10
+END
+MACRO 16777224 "asp" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift]8;[mod:alt]!Дух гепарда;[mod]!Дух стаи;
+/stopmacro [mod:shift]
+/castsequence reset=mod:alt/ctrl/shift !Дух дракондора,!Дух гадюки
+END
+MACRO 16777233 "burst" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift,spec:2]Готовность
+/stopmacro [mod:shift,spec:2]
+/cast [mod]Берсерк(Расовая);Быстрая стрельба
+/cast [mod]Звериный гнев;Зов дикой природы
+/cast [mod]Команда "Взять!";Раж
+/cast [mod];Неистовый вой
+/use 10
+/petattack
+END
+MACRO 16777229 "C" INV_Misc_QuestionMark
+#showtooltip
+/ц Шаркающий ужас
+/cast [mod:alt]Обжигающая ловушка;[mod:ctrl]Змеиная ловушка;[mod]Взрывная ловушка;[@focus,exists,harm,nodead,mod:shift][]Усмиряющий выстрел
+/ц Король-лич
+END
+MACRO 16777226 "CC" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]Отпугивание зверя;[@focus,exists,harm,nodead,mod:shift,spec:1][spec:1]Устрашение;[@focus,exists,harm,nodead,mod:shift][]Глушащий выстрел
+/stopattack [spec:0,nomod]
+END
+MACRO 16777232 "def" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod]Сдерживание;Приказ хозяина
+/cast [mod];Порыв
+/cast [mod];[@player]Рев самопожертвования
+/petfollow [nomod]
+END
+MACRO 16777230 "F" INV_Misc_QuestionMark
+#showtooltip
+/stopattack [mod:alt]
+/cast [mod:alt]Замораживающая ловушка;[mod:ctrl]Змеиная ловушка;[mod]Ледяная ловушка;!Замораживающая стрела
+END
+MACRO 16777227 "fake" INV_Misc_QuestionMark
+#showtooltip
+/stopattack [mod]
+/cast [mod]Притвориться мертвым;Отрыв
+/cast [mod]Крадущийся зверь;15
+END
+MACRO 16777236 "KS" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/petattack [spec:2]
+/cast [@mouseover,exists,harm,nodead][]Убийственный выстрел
+/cast [spec:2]!Команда "Взять!"
+/use 10
+/cancelaura Сдерживание
+/cancelaura Длань защиты
+/cancelaura Божественное вмешательство
+END
+MACRO 16777218 "melee" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast Укус мангуста
+/cast !Удар ящера
+END
+MACRO 16777228 "mid-click" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]Берсерк(Расовая);[mod]!Осветительная ракета;!Град стрел
+END
+MACRO 16777219 "pHelp" INV_Misc_QuestionMark
+#showtooltip 
+/cast [mod:ctrl]Прогнать питомца;[mod]Кормление питомца;[@pet,exists,nodead]Лечение питомца;[@pet,exists,dead]Воскрешение питомца;Призыв питомца
+END
+MACRO 16777237 "scatter" INV_Misc_QuestionMark
+#showtooltip
+/stopattack [nomod:shift]
+/cast [@focus,mod:shift,exists,harm,nodead][]Дезориентирующий выстрел
+END
+MACRO 16777238 "shot" INV_Misc_QuestionMark
+#showtooltip
+/startattack [spec:2]
+/petattack [spec:1]
+/cast [spec:0]Черная стрела;[spec:2]Выстрел химеры
+/cast !Команда "Взять!"
+/use 10
+END
+MACRO 16777234 "slow" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod]Контузящий выстрел;Подрезать крылья
+/cast [nomod]!Удар ящера
+/cast [nomod]Накинуться
+/cast [nomod]Сеть
+/cast [nomod]Ультразвук
+END
+MACRO 16777220 "sting" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:shift]Укус гадюки;[mod]Укус скорпида;Укус змеи
+/cast [spec:2]!Команда "Взять!"
+/use 10
+END

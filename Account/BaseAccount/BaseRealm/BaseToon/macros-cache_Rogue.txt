@@ -1,0 +1,84 @@
+MACRO 16777228 "blind" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:ctrl/alt]Сеть из ледяной ткани;[@focus,exists,harm,nodead,mod:shift][]Ослепление
+END
+MACRO 16777226 "C" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod]Отравляющий укол;Плащ Теней
+END
+MACRO 16777219 "CD" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]Берсерк(Расовая);[mod:ctrl]Исчезновение;[mod,spec:0]Подготовка;[spec:2]Хладнокровие;[mod]Выброс адреналина;Шквал клинков
+/use [mod];14
+/use [mod];10
+END
+MACRO 16777224 "E" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus,exists,harm,nodead,mod:shift][mod][spec:1]Долой оружие;[stance]Внезапный удар;Удар в спину
+END
+MACRO 16777220 "even" INV_Misc_QuestionMark
+#showtooltip
+/cast [spec:1,mod][spec:2,nomod]Отравление;Потрошение
+/stopattack [mod,spec:1]
+/equipslotцц [nomod,spec:1] 17 Кованая Плетью
+END
+MACRO 16777227 "F" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod]Веер клинков;[@target,mod:alt,help,nodead][@focus,exists,help,nodead][@targettarget,exists,help,nodead][]!Маленькие хитрости
+/startattack [combat,nostealth,nomod]
+/equipslotыы [nomod,spec:1] 17 Падение Небес
+END
+MACRO 16777229 "gauge" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus,exists,harm,nodead,mod:shift][]Парализующий удар
+/stopattack [nomod]
+END
+MACRO 16777223 "kick" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus,exists,harm,nodead][]Пинок
+END
+MACRO 16777221 "mid-click" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:ctrl,mod:shift]Величайший;[mod:ctrl,mod:alt]Замораживающая граната;[mod:alt]Берсерк(Расовая);[mod:shift]Саронитовая бомба;[mod]6;!Отвлечение
+END
+MACRO 16777234 "opnr" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/castsequence reset=10 Коварный удар,Коварный удар,Мясорубка,Череда убийств,Коварный удар,Выброс адреналина,Коварный удар
+/use Берсерк(Расовая)
+/use 10
+END
+MACRO 16777233 "pull" INV_Misc_QuestionMark
+#showtooltip Веер клинков
+/targetenemy [noexists]
+/startattack [nostealth]
+/cast [exists,harm,nodead]Веер клинков
+END
+MACRO 16777218 "R" INV_Misc_QuestionMark
+#showtooltip
+/startattack [nomod,nostealth]
+/cast [mod]Удар по почкам;[stance]Подлый трюк;[spec:1]Коварный удар; Расправа
+/equipslotцц [nomod,spec:1] 17 Кованая Плетью
+END
+MACRO 16777230 "rapt" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod]Ослабление доспеха;Рваная рана
+END
+MACRO 16777232 "sap" INV_Misc_QuestionMark
+#showtooltip
+/cast Ошеломление
+/targetenemy [noexists]
+END
+MACRO 16777231 "SnD" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus,exists,harm,nodead,mod:shift][]Мясорубка
+END
+MACRO 16777217 "stspr" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]8;[mod]Спринт;!Незаметность
+END
+MACRO 16777222 "thr" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod]!Бросок;Смертельный бросок
+/use [mod]10
+END
