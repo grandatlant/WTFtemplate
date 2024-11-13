@@ -1,0 +1,98 @@
+MACRO 16777248 "aoe" INV_Misc_QuestionMark
+#showtooltip
+/cast !Гроза
+END
+MACRO 16777234 "bash" INV_Misc_QuestionMark
+#showtooltip [mod:alt]Вызывающий рев;[mod]Рык;Оглушить
+/stopcasting
+/cast [noform:1]!Облик лютого медведя
+/cast [mod]Дубовая кожа
+/cast [mod:alt][nomod]Исступление
+/cast [mod:alt]Вызывающий рев;[mod]Рык;Оглушить
+END
+MACRO 16777226 "cyclon" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]Спячка;[@focus,exists,harm,nodead,mod][]Смерч
+END
+MACRO 16777242 "E" INV_Misc_QuestionMark
+#showtooltip
+/cast [@player,mod:alt]Омоложение;[mod]Восстановление;[spec:1]Омоложение;[form:1]Увечье (медведь);[form:3]Увечье (кошка);Омоложение
+/cast [form:1,nomod,spec:2]!Трепка
+END
+MACRO 16777219 "F" INV_Misc_QuestionMark
+#showtooltip
+/cast [@player,mod:alt][mod,spec:1]Целительное прикосновение;[form:1/3,nomod]Волшебный огонь (зверь);[spec:0,nomod]Быстрое восстановление;Волшебный огонь
+/cast [form:1,nomod]!Трепка
+END
+MACRO 16777236 "f1" INV_Misc_QuestionMark
+#showtooltip
+/use [@player,mod:alt]Омоложение;[form:1,mod]!Облик лютого медведя;[form:1]!Трепка;[form:3,mod]!Облик кошки;[stealth]Накинуться;[form:3,spec:0]Увечье (кошка);[form:3]Полоснуть;!Облик кошки
+/startattack [combat,nostealth]
+END
+MACRO 16777237 "f2" INV_Misc_QuestionMark
+#showtooltip
+/targetenemy [noexists]
+/cast [@player,mod:alt]Восстановление;[form:1,mod]!Облик кошки;[form:1]Рык;[form:3,mod]!Облик лютого медведя;[stealth]Наскок;[form:3]Глубокая рана;!Облик лютого медведя
+/startattack [nostealth]
+END
+MACRO 16777243 "FC" INV_Misc_QuestionMark
+#showtooltip
+/cast [form:1]Звериная атака - медведь;[form:3]Звериная атака - кошка;!Облик лютого медведя
+/nocast [form:1,nomod]!Трепка
+END
+MACRO 16777227 "fCD" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod]Инстинкты выживания;Берсерк
+/use [mod]Упрямый скарабей Сатрины;Отмщение Отрекшихся
+/use [nomod]10
+END
+MACRO 16777245 "form" INV_Misc_QuestionMark
+#showtooltip
+/cast [spec:1]!Облик лунного совуха;!Древо Жизни
+END
+MACRO 16777241 "R" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift]Спячка;[spec:1]Тайфун;[form:1]Оглушить;[form:3]Калечение;[spec:2]!Облик лютого медведя;[@player,mod:alt][@mouseover,exists,help,nodead][]Буйный рост
+END
+MACRO 16777247 "rac" INV_Misc_QuestionMark
+#showtooltip
+/petattack
+/cast [mod:ctrl]Громовая поступь(Расовая);[mod:shift,spec:0]!Сила Природы;[spec:1]!Звездопад;Жизнецвет
+/cancelaura [mod:alt]Звездопад
+/use Фетиш неустойчивой силы
+/use [nomod]10
+END
+MACRO 16777217 "roots" INV_Misc_QuestionMark
+#showtooltip
+/ц Бомбот
+/cast [mod:ctrl]Сеть из ледяной ткани;[@focus,exists,harm,nodead,mod][]Гнев деревьев
+END
+MACRO 16777221 "std" INV_Misc_QuestionMark
+#showtooltip [mod:alt]8;[mod]Порыв;!Крадущийся зверь
+/stopmacro [form:1,nomod:alt]
+/cast [noform:3,nomod:alt]!Облик кошки
+/cast [mod:alt]8;[mod]Порыв;!Крадущийся зверь
+/stopattack [nomod]
+END
+MACRO 16777229 "stop" Ability_Druid_PredatoryInstincts
+/stopcasting [nomod]
+/cancelform [mod][noform:5/6]
+/stopattack
+END
+MACRO 16777224 "taunt" INV_Misc_QuestionMark
+#showtooltip [mod]Вызывающий рев;Рык
+/stopcasting
+/cast [noform:1]!Облик лютого медведя
+/cast [mod,form:1]Исступление
+/cast [mod]Вызывающий рев;Рык
+END
+MACRO 16777235 "X" INV_Misc_QuestionMark
+#showtooltip
+/cast [form:1]Исступление;[form:3,nomod]Тигриное неистовство;[swimming]!Водный облик;[outdoors,flyable,mod,nocombat]!Облик стремительной птицы;[outdoors]!Походный облик;!Облик кошки
+END
+MACRO 16777239 "С" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover,help,mod:shift][mod:shift]Снятие проклятия;[@player,mod:alt][mod]Устранение яда;[form:1]Размах (медведь);[form:3]Размах (кошка);Устранение яда
+/cast [form:1,nomod]!Трепка
+/startattack [form:1/3,combat,nostealth]
+END

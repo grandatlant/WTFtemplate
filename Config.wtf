@@ -1,11 +1,5 @@
 SET locale "enUS"
 SET gxWindow "1"
-SET readTOS "1"
-SET readEULA "1"
 SET timingTestError "0"
 SET worldPreloadNonCritical "0"
 SET dbCompress "0"
-SET realmList "logon.warmane.com"
-SET accounttype "LK"
-SET realmName "Icecrown"
-

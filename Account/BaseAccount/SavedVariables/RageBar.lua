@@ -9,6 +9,6 @@ RageBardb = {
 		["talentrank"] = 3,
 		["width"] = 200,
 		["font"] = "Arial Narrow",
-		["tex"] = "BantoBar",
+		["tex"] = "Blizzard",
 	},
 }

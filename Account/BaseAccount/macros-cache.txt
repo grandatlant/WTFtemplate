@@ -54,11 +54,6 @@ MACRO 65 "in_me" Spell_Magic_ManaGain
 /oom
 /s Innervate me, please!
 END
-MACRO 12 "info" INV_Misc_QuestionMark
-/epgp
-/s .server info
-/in 5 /s .whycombat
-END
 MACRO 44 "inner" Ability_Creature_Cursed_05
 /run if GetSpellCooldown("Озарение")==0 then kd="Озарение на %t" else kd=format("Озарение кд: %.0f сек", (180-(GetTime()-GetSpellCooldown("Озарение")))) end; SendChatMessage(kd, "SAY")
 /cast Озарение
@@ -105,15 +100,6 @@ MACRO 47 "npot" INV_Misc_QuestionMark
 #showtooltip
 /use [button:2][mod]Рунический набор для лечебных инъекций;Рунический набор для инъекций маны;
 END
-MACRO 66 "ochi" Ability_Druid_EmpoweredTouch
-/s Ya bachu ochi, Vony ne hochut'
-/in 6 /s Robity te, Shcho hoche vin...
-/in 12 /s Ti vzhe ne plachesh, A ya vse tse bachu.
-/in 18 /s Ta tse lish poglyad, Lyshe odyn.
-END
-MACRO 37 "orda" Ability_BullRush
-/к 1 Э РР Й 1 Й 2 У
-END
 MACRO 62 "pedl" INV_Misc_QuestionMark
 /cast Божественная буря
 /cast Правосудие мудрости
@@ -128,13 +114,6 @@ MACRO 52 "pet" INV_Misc_QuestionMark
 #showtooltip
 /petattack
 /cast Команда "Взять!"
-END
-MACRO 49 "RAK" INV_Misc_QuestionMark
-#showtooltip
-/stopmacro [noform]
-/cast Жертвенный костер(Отладка)
-/cast !Теневой колун(Отладка)
-/к З И З И З УЙЦ
 END
 MACRO 63 "RO" Ability_Creature_Cursed_02
 /stopmacro [nomod]
@@ -159,7 +138,7 @@ MACRO 4 "trin2" INV_Misc_QuestionMark
 #showtooltip
 /use [@mouseover,exists,nodead][]14
 END
-MACRO 38 "tSwap" Ability_Druid_HealingInstincts
+MACRO 38 "ftSwap" Ability_Druid_HealingInstincts
 /cleartarget [@target,dead]
 /clearfocus [@focus,dead]
 /target focus

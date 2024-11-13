@@ -1,4 +1,6 @@
-# Backups
-*.lua.bak
-*.old
+# Ignore local symlinks
+# Add user-created symlinks here
+/BaseRealmSymlink1
+/BaseRealmSymlink2
+/BaseRealmSymlink3
 

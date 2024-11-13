@@ -1,0 +1,77 @@
+MACRO 16777222 "C" INV_Misc_QuestionMark
+#showtooltip
+/cast [@player,mod:ctrl][mod:shift]Длань свободы;[@player,mod:alt][]Очищение
+END
+MACRO 16777232 "CD1" INV_Misc_QuestionMark
+#showtooltip
+/cast [spec:1,mod:ctrl]Печать повиновения;[mod:ctrl]Печать мудрости;[mod]Божественный щит;Гнев карателя
+/cancelaura [mod:alt]Божественный щит
+/cancelaura [mod:alt]Длань защиты
+/use [spec:2,nomod]Талисман восстановления
+/use [nomod]10
+END
+MACRO 16777234 "CD2" INV_Misc_QuestionMark
+#showtooltip
+/cast [spec:2,mod:ctrl]Печать справедливости;[mod:ctrl]Печать порчи;[spec:1,nomod]Мастер аур;l[spec:2,nomod]Божественное просветление;[mod:shift]Праведная защита;Длань возмездия
+/use [spec:2,nomod]Метеоритный кристалл
+END
+MACRO 16777235 "CD3" INV_Misc_QuestionMark
+#showtooltip
+/cast [spec:1][spec:2,nomod]Мастер аур;Священная жертва
+/cancelaura [mod:ctrl/alt]Священная жертва
+END
+MACRO 16777224 "cons" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod]Экзорцизм;Освящение
+/targetenemy [noexists]
+/startattack
+END
+MACRO 16777226 "E" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]Гнев небес;[mod:shift]Священный щит;[spec:1,nomod]Божественная буря;Щит праведности
+/startattack [nomod]
+/cancelaura Проклятие хаоса
+END
+MACRO 16777223 "exor" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus,exists,harm,nodead,mod:shift][]Экзорцизм
+/targetenemy [noexists]
+/startattack [nomod]
+END
+MACRO 16777217 "F" INV_Misc_QuestionMark
+#showtooltip
+/cast [@player,mod:alt][nomod]Вспышка Света;Свет небес
+END
+MACRO 16777219 "JoW" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus,exists,harm,nodead,mod:shift][]Правосудие мудрости
+/startattack
+/targetenemy [noexists]
+/cancelaura Проклятие хаоса
+END
+MACRO 16777233 "plea" INV_Misc_QuestionMark
+#showtooltip Святая клятва
+/cast [nomod]Святая клятва
+/cancelaura [mod]Святая клятва
+END
+MACRO 16777225 "Q" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]Волшебный поток(Расовая);[mod:ctrl]Изгнание зла;[spec:2]Частица Света;[@focus,mod,exists,harm,nodead,spec:1][spec:1]Покаяние;[@focus,mod,exists,harm,nodead][]Щит мстителя
+/cancelaura Фрагмент души
+END
+MACRO 16777227 "R" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]Изгнание зла;[spec:1,nomod]Удар воина Света;[spec:1,nomod]Молот праведника;[nomod]Шок небес;Молот правосудия(Уровень 4)
+/targetenemy [nomod,noexists,spec:1]
+/startattack [nomod,spec:1]
+/cancelaura Проклятие хаоса
+END
+MACRO 16777229 "RF" INV_Misc_QuestionMark
+#showtooltip Праведное неистовство
+/cast [button:2];Праведное неистовство
+/cancelaura [button:2]Праведное неистовство
+END
+MACRO 16777236 "X" INV_Misc_QuestionMark
+#showtooltip
+/use [mod:alt]10;[mod:ctrl]6;[mod]8;Молот гнева
+END

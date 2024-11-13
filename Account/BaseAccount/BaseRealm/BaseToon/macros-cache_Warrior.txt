@@ -1,0 +1,112 @@
+MACRO 16777230 "attack" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod,spec:2]Оглушающий удар;[spec:2]Сокрушение;[@focus,exists,harm,nodead,mod,spec:0][]Кровожадность
+/cancelaura Длань защиты
+/stopmacro [spec:0]
+/cast [mod,spec:1]!Рассекающий удар;[nomod]!Удар героя
+END
+MACRO 16777231 "C" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [spec:0,mod]Размашистые удары;[spec:2,mod]Ударная волна;[stance:3]Вихрь;Удар грома
+/cancelaura Длань защиты
+/cast [nomod]!Рассекающий удар
+END
+MACRO 16777240 "CD" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:ctrl]Устрашающий крик;[mod:alt]Безрассудство;[mod]Возмездие;[spec:2]Ни шагу назад; Жажда смерти
+/use [nomod]10
+/use [nomod]Кровавое неистовство(Расовая)
+/use [nomod]Гниющий палец Ика
+END
+MACRO 16777229 "charg" INV_Misc_QuestionMark
+#showtooltip
+/cast [@targettarget,exists,help,nodead,mod:alt/ctrl][help,nodead]Вмешательство;[mod]Перехват;Рывок
+/stopmacro [spec:2]
+/cast [help,nodead][mod:alt/ctrl]Оборонительная стойка;[mod,nostance:3]Стойка берсерка;[nomod,nostance:1]Боевая стойка
+END
+MACRO 16777222 "E" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [stance:3]Вихрь;[stance:2]Реванш;[@focus,exists,harm,nodead,mod][]Превосходство
+/cancelaura Длань защиты
+/cancelaura Вихрь клинков
+/stopmacro [spec:0]
+/cast [mod]!Рассекающий удар;!Удар героя
+END
+MACRO 16777241 "Fslam" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast Мощный удар
+/stopcasting
+/cancelaura111 [mod]Проклятие хаоса
+/stopmacro [spec:0]
+/cast [mod]!Рассекающий удар;!Удар героя
+END
+MACRO 16777221 "G" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod]Разоружение;Подрезать сухожилия
+/cast [mod,nostance:2]Оборонительная стойка;[nomod,nostance:1/3]Боевая стойка
+ 
+END
+MACRO 16777242 "inter" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus,exists,harm,nodead,mod:shift][]Перехват
+/target [@focus,exists,harm,nodead,mod:shift] focus
+/startattack
+END
+MACRO 16777225 "Q" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [spec:1]Зуботычина;[nomod,stance:2]Провокация;[stance:1/2]Удар щитом;Зуботычина
+/cast [spec:1,nostance:3]Стойка берсерка
+END
+MACRO 16777220 "rage" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod]Ярость берсерка;Кровавая ярость
+END
+MACRO 16777237 "roar" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:ctrl]Вызывающий крик;[mod]Боевой крик;Командирский крик
+END
+MACRO 16777226 "sdef" INV_Misc_QuestionMark
+#showtooltipя
+/cast [mod:ctrl]Безудержное восстановление;[mod]Глухая оборона;Блок щитом
+/cast [nomod:ctrl,nostance:2]Оборонительная стойка
+/equip [spec:0] Митриос
+/equip [spec:1] Забытая преграда
+END
+MACRO 16777238 "spell" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:shift]Удар щитом;[mod]Отражение заклинания;Мощный удар щитом
+/cast [spec:2,mod,nostance:1/2]Оборонительная стойка;[mod,nostance:1/2]Боевая стойка
+/equip [spec:1] Забытая преграда
+END
+MACRO 16777219 "stance" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]Стойка берсерка;[mod]Боевая стойка;Оборонительная стойка
+/stopmacro [spec:2]
+/equip Грань Тьмы
+/equipslot [mod] 17 Клеймор охранника цитадели ; 17 Забытая преграда
+END
+MACRO 16777239 "strike" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [spec:0][mod]!Рассекающий удар;!Удар героя
+END
+MACRO 16777235 "throw" INV_Misc_QuestionMark
+#showtooltip
+/targetenemy [nomod,noexists]
+/startattack
+/cast [mod]Сокрушительный бросок;Героический бросок
+/cast [mod,nostance:1]Боевая стойка
+/cast [mod,stance:1]Кровавая ярость
+END
+MACRO 16777228 "X" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:shift]8;[stance:2]Дразнящий удар;[nomod]Казнь;Победный раж
+/cast [spec:1]!Удар героя
+END
