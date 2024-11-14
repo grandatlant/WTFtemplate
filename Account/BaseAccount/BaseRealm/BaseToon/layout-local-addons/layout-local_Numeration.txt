@@ -1,0 +1,8 @@
+Frame: NumerationFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 5
+Y: -200
+W: 280
+H: 154
+
