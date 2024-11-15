@@ -53,7 +53,7 @@ LoseControl: enabled
 MBB: disabled
 Omen: enabled
 OmniCC: enabled
-PallyPower: disabled
+PallyPower: enabled
 PlateBuffs: disabled
 Postal: enabled
 RaidRoll: enabled

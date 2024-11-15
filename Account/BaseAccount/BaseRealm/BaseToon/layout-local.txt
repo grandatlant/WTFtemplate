@@ -132,6 +132,13 @@ X: 65
 Y: -55
 W: 1170
 H: 209
+Frame: RR_RollFrame
+FrameLevel: 104
+Anchor: BOTTOM
+X: -320
+Y: 160
+W: 185
+H: 155
 Frame: TellMeWhen_Group1
 FrameLevel: 37
 Anchor: CENTER
