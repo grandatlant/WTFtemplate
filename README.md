@@ -3,6 +3,9 @@ Interface configuration for World of Warcraft (3.3.5)
 
 # Versatile releases
 
+## Release 1.0.1
+- Global fix and more addon settings (still not for enUS)
+
 ## Release 1.0.0
 - First global game-ready template.
 
