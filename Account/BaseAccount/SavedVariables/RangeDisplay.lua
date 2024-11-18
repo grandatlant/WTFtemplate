@@ -65,6 +65,7 @@ RangeDisplayDB3 = {
 					},
 				},
 				["focus"] = {
+					["point"] = "TOPLEFT",
 					["maxRangeOnly"] = true,
 					["lrSection"] = {
 						["enabled"] = true,
@@ -75,8 +76,8 @@ RangeDisplayDB3 = {
 					["defaultSection"] = {
 						["useText"] = false,
 					},
-					["y"] = 275,
-					["x"] = -290,
+					["y"] = -230,
+					["x"] = 295,
 					["crSection"] = {
 						["useText"] = false,
 					},
