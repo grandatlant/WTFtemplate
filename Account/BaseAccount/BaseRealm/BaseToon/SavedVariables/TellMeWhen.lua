@@ -4542,8 +4542,8 @@ TellMeWhen_Settings = {
 				}, -- [49]
 			},
 			["LBFGroup"] = false,
-			["PrimarySpec"] = false,
-			["SecondarySpec"] = false,
+			["PrimarySpec"] = true,
+			["SecondarySpec"] = true,
 			["OnlyInCombat"] = false,
 		}, -- [7]
 		{
@@ -4858,7 +4858,7 @@ TellMeWhen_Settings = {
 					["CooldownShowWhen"] = "usable",
 					["Unit"] = "player",
 					["OnlyMine"] = false,
-					["Name"] = "Мертвящая чума;Пожирание души;Пылающий огонь;Огненная метка;Ледяная метка;Темное сокрушение;",
+					["Name"] = "",
 					["BuffShowWhen"] = "present",
 					["CooldownType"] = "spell",
 					["Type"] = "buff",
@@ -5191,8 +5191,8 @@ TellMeWhen_Settings = {
 				}, -- [49]
 			},
 			["LBFGroup"] = false,
-			["PrimarySpec"] = false,
-			["SecondarySpec"] = false,
+			["PrimarySpec"] = true,
+			["SecondarySpec"] = true,
 			["OnlyInCombat"] = false,
 		}, -- [8]
 	},
