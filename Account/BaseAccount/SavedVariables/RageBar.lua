@@ -2,7 +2,7 @@
 RageBardb = {
 	["global"] = {
 		["lock"] = true,
-		["y"] = 435,
+		["y"] = 440,
 		["x"] = 655,
 		["talentname"] = "Тактическое превосходство",
 		["fontsize"] = 16,
