@@ -11,11 +11,11 @@ MACRO 27 "belt" INV_Misc_QuestionMark
 END
 MACRO 54 "BoK" INV_Misc_QuestionMark
 #showtooltip
-/cast [mod][button:2]Blessing of Kings;Greater Blessing of Kings
+/cast [mod][button:2] Blessing of Kings; Greater Blessing of Kings
 END
 MACRO 55 "BoM" INV_Misc_QuestionMark
 #showtooltip
-/cast [mod][button:2]Blessing of Might;Greater Blessing of Might
+/cast [mod][button:2] Blessing of Might; Greater Blessing of Might
 END
 MACRO 31 "boots" INV_Misc_QuestionMark
 #showtooltip
@@ -23,11 +23,11 @@ MACRO 31 "boots" INV_Misc_QuestionMark
 END
 MACRO 53 "BoS" INV_Misc_QuestionMark
 #showtooltip
-/cast [mod][button:2]Blessing of Sanctuary;Greater Blessing of Sanctuary
+/cast [mod][button:2] Blessing of Sanctuary; Greater Blessing of Sanctuary
 END
 MACRO 56 "BoW" INV_Misc_QuestionMark
 #showtooltip
-/cast [mod][button:2]Blessing of Wisdom;Greater Blessing of Wisdom
+/cast [mod][button:2] Blessing of Wisdom; Greater Blessing of Wisdom
 END
 MACRO 6 "budge" Ability_Creature_Cursed_01
 /script local function buy (n,q) for i=1,100 do if n==GetMerchantItemInfo(i) then BuyMerchantItem(i,q) end end end buy("Emblem of Conquest",5) buy("Emblem of Valor",5) buy("Emblem of Heroism",5)
@@ -53,11 +53,11 @@ MACRO 28 "hands" INV_Misc_QuestionMark
 END
 MACRO 45 "hpot" INV_Misc_QuestionMark
 #showtooltip
-/cast [mod][button:2]Runic Healing Potion;Runic Mana Potion
+/cast [mod][button:2] Runic Healing Potion; Runic Mana Potion
 END
 MACRO 34 "imoht" INV_Misc_QuestionMark
 /cast Nature's Swiftness
-/cast [@mouseover,exists, help,nodead][]Healing Touch
+/cast [@mouseover,exists,help,nodead][] Healing Touch
 END
 MACRO 65 "in_me" Spell_Magic_ManaGain
 /s Innervate me pls!
@@ -69,19 +69,19 @@ MACRO 44 "inner" INV_Misc_QuestionMark
 END
 MACRO 39 "lAS" INV_Misc_QuestionMark
 #showtooltip
-/cast [mod][button:2]Create Spellstone;Grand Spellstone
+/cast [mod][button:2] Create Spellstone; Grand Spellstone
 /stopmacro [mod][button:2]
 /use 16
 END
 MACRO 41 "lFS" INV_Misc_QuestionMark
 #showtooltip
-/cast [mod][button:2]Create Firestone;Grand Firestone
+/cast [mod][button:2] Create Firestone; Grand Firestone
 /stopmacro [mod][button:2]
 /use 16
 END
 MACRO 7 "lHS" INV_Misc_QuestionMark
 #showtooltip
-/cast [mod][button:2]Create Healthstone;Fel Healthstone
+/cast [mod][button:2] Create Healthstone; Fel Healthstone
 END
 MACRO 33 "LP" Ability_Creature_Disease_02
 /stopmacro [nomod]
@@ -89,12 +89,12 @@ MACRO 33 "LP" Ability_Creature_Disease_02
 END
 MACRO 42 "lritual" INV_Misc_QuestionMark
 #showtooltip
-/cast [mod:alt][button:3]Ritual of Doom;[mod][button:2]Ritual of Souls;Ritual of Summoning
+/cast [mod:alt][button:3] Ritual of Doom;[mod][button:2] Ritual of Souls; Ritual of Summoning
 /y ASS-IST !!!
 END
 MACRO 40 "lSS" INV_Misc_QuestionMark
 #showtooltip
-/cast [mod][button:2]Create Soulstone;Demonic Soulstone
+/cast [mod][button:2] Create Soulstone; Demonic Soulstone
 END
 MACRO 64 "mark" Ability_BackStab
 /run SetRaidTarget("target",0)
@@ -107,12 +107,12 @@ MACRO 64 "mark" Ability_BackStab
 END
 MACRO 47 "npot" INV_Misc_QuestionMark
 #showtooltip
-/use [button:2][mod]Runic Healing Injector;Runic Mana Injector
+/use [button:2][mod] Runic Healing Injector; Runic Mana Injector
 END
 MACRO 52 "pet" INV_Misc_QuestionMark
 #showtooltip
 /petattack
-/cast Kill Command
+/cast !Kill Command
 END
 MACRO 63 "RO" Ability_Creature_Cursed_02
 /stopmacro [nomod]
@@ -132,9 +132,9 @@ MACRO 61 "throw" INV_Misc_QuestionMark
 END
 MACRO 2 "trin1" INV_Misc_QuestionMark
 #showtooltip
-/use [@mouseover,exists,nodead][]13
+/use [@mouseover,exists,nodead][] 13
 END
 MACRO 4 "trin2" INV_Misc_QuestionMark
 #showtooltip
-/use [@mouseover,exists,nodead][]14
+/use [@mouseover,exists,nodead][] 14
 END
