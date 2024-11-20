@@ -22,8 +22,8 @@ H: 1
 Frame: TellMeWhen_Group4
 FrameLevel: 37
 Anchor: CENTER
-X: -100
-Y: -85
+X: 80
+Y: 0
 W: 1
 H: 1
 Frame: TellMeWhen_Group5
