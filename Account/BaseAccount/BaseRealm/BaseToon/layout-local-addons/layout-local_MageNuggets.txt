@@ -1,8 +1,8 @@
 Frame: MageNugSP_Frame
 FrameLevel: 1
 Anchor: CENTER
-X: -130
-Y: -245
+X: -165
+Y: -240
 W: 76
 H: 46
 Frame: MageNugClearcast_Frame
@@ -22,8 +22,8 @@ H: 36
 Frame: MageNugScorch_Frame
 FrameLevel: 1
 Anchor: CENTER
-X: -160
-Y: -205
+X: 100
+Y: -100
 W: 36
 H: 36
 Frame: MageNugAB_Frame
