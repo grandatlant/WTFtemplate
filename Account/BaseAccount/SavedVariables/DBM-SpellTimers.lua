@@ -233,7 +233,7 @@ DBM_SpellTimers_Settings = {
 			["bartext"] = "Vagabundos: %player",
 		}, -- [38]
 	},
-	["only_from_raid"] = true,
+	["only_from_raid"] = false,
 	["own_bargroup"] = false,
 	["portal_alliance"] = {
 		{

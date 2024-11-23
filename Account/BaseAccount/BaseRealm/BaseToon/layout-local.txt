@@ -149,8 +149,8 @@ H: 209
 Frame: RR_LOOT_FRAME
 FrameLevel: 96
 Anchor: LEFT
-X: 150
-Y: -60
+X: 140
+Y: -80
 W: 245
 H: 290
 Frame: RR_RollFrame
