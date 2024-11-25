@@ -1,0 +1,81 @@
+MACRO 16777219 "AOE" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod]Blood Boil;Pestilence
+/cast [spec:1]!Rune Strike
+END
+MACRO 16777218 "blood" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/petattack
+/cast [spec:0,nomod]Heart Strike;Blood Strike
+/cast [spec:1]!Rune Strike
+END
+MACRO 16777224 "CD1" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]Death Pact;[spec:2,mod:ctrl]Blood Presence;[mod:ctrl]Frost Presence;[spec:2,mod]Bone Shield;[spec:2]Summon Gargoyle;[mod]Vampiric Blood;[@mouseover,exists,help,nodead][]Hysteria
+/use [spec:1,mod:shift]Ick's Rotting Thumb
+END
+MACRO 16777225 "CD2" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]Empower Rune Weapon;[mod:ctrl]Unholy Presence;[mod]Blood Tap;[spec:1]Rune Tap;Bone Shield
+END
+MACRO 16777226 "coil" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/petattack
+/cast [mod:shift,spec:0]Corpse Explosion;[@player,mod:alt][@focus,exists,nodead,mod:shift][]Death Coil
+END
+MACRO 16777235 "DnD" INV_Misc_QuestionMark
+#showtooltip
+/cast !Death and Decay
+END
+MACRO 16777220 "F" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/petattack
+/cast [mod:alt/ctrl]Obliterate;[spec:1][mod:shift]Death Strike;Scourge Strike
+/cast [spec:1]!Rune Strike
+END
+MACRO 16777222 "frost" INV_Misc_QuestionMark
+#showtooltip
+/targetenemy [noexists]
+/startattack
+/petattack
+/cast [mod]Chains of Ice;Icy Touch
+/cast [spec:1]!Rune Strike
+END
+MACRO 16777227 "grip" INV_Misc_QuestionMark
+#showtooltip
+/targetenemy [noexists]
+/cast [mod]!Dark Command;!Death Grip
+/cancelaura Hand of Protection
+/cancelaura Divine Intervention
+END
+MACRO 16777232 "opnr" INV_Misc_QuestionMark
+#showtooltip
+/castsequence reset=10 Icy Touch,Plague Strike,Blood Strike,Blood Strike,Scourge Strike,Empower Rune Weapon,Scourge Strike,Summon Gargoyle,Scourge Strike,Blood Strike,Blood Strike,Blood Tap,Pestilence,Death Coil,Scourge Strike
+END
+MACRO 16777234 "opnr2" INV_Misc_QuestionMark
+#showtooltip
+/castsequence reset=10 Icy Touch,Plague Strike,Blood Strike,Blood Strike,Scourge Strike,Empower Rune Weapon,Summon Gargoyle,Blood Presence,Blood Strike,Icy Touch,Plague Strike,Scourge Strike,Death Coil
+END
+MACRO 16777217 "rac" INV_Misc_QuestionMark
+#showtooltip
+/cast [spec:1,mod:ctrl]Blood Presence;[mod:ctrl]Frost Presence; Blood Fury(Racial)
+END
+MACRO 16777228 "runic" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast !Rune Strike
+END
+MACRO 16777221 "sil" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod]Mind Freeze;[@focus,exists,harm,nodead,nomod:alt][]Strangulate
+END
+MACRO 16777223 "unh" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/petattack
+/cast [mod]Pestilence;Plague Strike
+/cast [spec:1]!Rune Strike
+END

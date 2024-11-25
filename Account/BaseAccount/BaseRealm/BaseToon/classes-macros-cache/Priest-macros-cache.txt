@@ -1,0 +1,81 @@
+MACRO 16777223 "C" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover,exists,nodead,mod:shift][mod:shift]Abolish Disease;[@mouseover,exists,nodead,mod:ctrl][mod:ctrl]Cure Disease;[@player,mod:alt][@mouseover,exists,nodead][]Dispel Magic
+END
+MACRO 16777243 "CD" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:ctrl]Divine Hymn;[mod:shift][spec:1]Inner Focus;[@player,mod][@mouseover,exists,help,nodead][] Power Infusion
+/use [spec:1,nomod][spec:2,mod:shift]Nevermelting Ice Crystal
+END
+MACRO 16777222 "E" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:ctrl]Power Word: Shield(Rank 1);[@mouseover,exists,help,nodead,mod:shift][mod:shift]Renew;[@player,mod:alt][@mouseover,exists,help,nodead][]Power Word: Shield
+END
+MACRO 16777228 "F" INV_Misc_QuestionMark
+#showtooltip
+/cast [form:1,nomod]Prayer of Mending;[mod:shift]Greater Heal;[mod:ctrl]Binding Heal;[@player,mod:alt][]Flash Heal
+END
+MACRO 16777227 "G" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus,exists,harm,nodead,mod:shift][@mouseover,exists,harm,nodead][nomod]Frostweave Net;Mana Burn
+END
+MACRO 16777224 "mbuff" INV_Misc_QuestionMark
+#showtooltip
+/castsequence reset=5 Prayer of Fortitude, Prayer of Spirit, Prayer of Shadow Protection
+END
+MACRO 16777220 "Q" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:ctrl]Shackle Undead;[mod:alt][spec:1/2]Fade;[@focus,exists,harm,nodead,mod:shift][]Silence
+END
+MACRO 16777225 "R" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus,exists,harm,nodead,mod:shift,spec:1][spec:1]Mind Flay;Inner Focus;[@player,mod:alt][@focus,exists,nodead,mod:shift][@mouseover,exists,help,nodead][]Penance
+END
+MACRO 16777240 "rac" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod]Berserking(Racial);Holy Nova
+END
+MACRO 16777237 "Rfly" INV_Misc_QuestionMark
+#showtooltip
+/stopmacro [nomod,channeling:Mind Flay]
+/cast [@focus,exists,harm,nodead,mod:shift,spec:1][spec:1]Mind Flay;[@player,mod:alt][@focus,exists,nodead,mod:shift][@mouseover,exists,help,nodead][]Penance
+END
+MACRO 16777217 "sbuff" INV_Misc_QuestionMark
+#showtooltip
+/castsequence reset=5 Inner Fire,Power Word: Fortitude,Divine Spirit,Shadow Protection
+END
+MACRO 16777236 "sdot" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt/ctrl][spec:2,mod]Devouring Plague;[@focus,exists,harm,nodead,mod:shift][]Shadow Word: Pain
+END
+MACRO 16777226 "SF" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]Berserking(Racial);[mod:ctrl]Hymn of Hope;[mod]Mind Control;Shadowfiend
+/petagressive
+/petattack
+/cast sdadad
+END
+MACRO 16777221 "SWD" INV_Misc_QuestionMark
+#showtooltip
+/cast [spec:1,noform:1]!Shadowform;[@focus,exists,harm,nodead,mod:shift][]Shadow Word: Death
+/targetenemy [noexists]
+/cancelaura [spec:2] Power Word: Shield
+END
+MACRO 16777238 "T" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod,spec:0]Psichic Horror;[nomod,spec:0]Desperate Prayer; [@player,mod:ctrl/alt][@mouseover,exists,help,nodead][]Fear Ward
+END
+MACRO 16777242 "VT" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus,exists,harm,nodead,mod:shift][] Vampiric Touch
+END
+MACRO 16777244 "X" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod] Psychic Scream; !Mass Dispel
+END
+MACRO 16777229 "Z" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast [spec:1] !Dispersion;[@player,mod][@mouseover,exists,help,nodead][]Pain Suppression
+/cancelaura [mod] Dispersion
+END

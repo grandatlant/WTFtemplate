@@ -1,0 +1,76 @@
+MACRO 16777235 "1" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus,exists,harm,nodead,mod:shift,spec:1][spec:1] Frostfire Bolt;[@focus,exists,harm,nodead,mod:shift,spec:0][spec:0] Arcane Missiles;[@focus,exists,harm,nodead,mod:shift][] Pyroblast
+END
+MACRO 16777234 "2" INV_Misc_QuestionMark
+#showtooltip
+/cast [spec:0] Presence of Mind
+/cast [spec:0] Pyroblast;[@focus,exists,harm,nodead,mod:shift,spec:1][spec:1] Deep Freeze;[@focus,exists,harm,nodead,mod:shift][] Living Bomb
+END
+MACRO 16777230 "3" INV_Misc_QuestionMark
+#showtooltip
+/petattack
+/cast [spec:2,mod] Scorch;[spec:1,nomod][spec:2,mod] Frostbolt;[spec:0,nomod] Arcane Blast;[spec:0] Frostbolt; Fireball
+END
+MACRO 16777225 "AOE" INV_Misc_QuestionMark
+#showtooltip
+/cast [spec:1,mod][spec:2,nomod] !Flamestrike; [spec:2] !Flamestrike(Rank 8); !Blizzard
+END
+MACRO 16777229 "bar" INV_Misc_QuestionMark
+#showtooltip
+/cast [spec:0,nomod] Arcane Barrage;[spec:2,mod][spec:1,nomod] Ice Lance; Fire Blast
+/targetenemy [noexists]
+END
+MACRO 16777217 "C" INV_Misc_QuestionMark
+#showtooltip
+/cast [@player,mod:alt][mod:shift] Remove Curse; Spellsteal
+END
+MACRO 16777220 "CD" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt] Berserking(Racial); [spec:0,nomod] Arcane Power; [spec:1,mod:shift] Summon Water Elemental; [spec:1,mod] Cold Snap; [spec:1][spec:0,mod] Icy Veins; Combustion
+/use [mod] ; 10
+END
+MACRO 16777227 "def" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt] 8; [mod:ctrl] Invisibility; [mod] Mirror Image; Cone of Cold
+END
+MACRO 16777222 "E" INV_Misc_QuestionMark
+#showtooltip
+/cast [spec:1,nomod] Ice Barrier; [mod:alt] Mana Shield; [mod:shift] Fire Ward; Frost Ward
+END
+MACRO 16777232 "food" INV_Misc_QuestionMark
+#showtooltip
+/use [mod:ctrl/alt][button:3] Ritual of Refreshment; [mod][button:2] Conjure Refreshment; Conjured Mana Strudel
+END
+MACRO 16777221 "magic" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod][button:2] Amplify Magic; Dampen Magic
+END
+MACRO 16777219 "Q" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting [nomod:ctrl/alt]
+/cast [@focus,exists,harm,nodead,mod:ctrl][mod:alt] Polymorph; [@focus,exists,harm,nodead,mod:shift][] Counterspell
+END
+MACRO 16777218 "R" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod] Frost Nova; Cone of Cold
+END
+MACRO 16777228 "shi" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod][button:2] Mage Armor; Ice Armor
+END
+MACRO 16777231 "slow" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift,spec:0] Presence of Mind
+/cast [mod:ctrl/alt] Frostweave Net; [spec:0,nomod] Slow; [mod:shift] Frostfire Bolt; Frostbolt(Rank 1)
+END
+MACRO 16777233 "TP" INV_Misc_QuestionMark
+#showtooltip
+/use [mod:alt][button:3] Portal: Stonard; [mod][button:2] Portal: Dalaran; Teleport: Dalaran
+END
+MACRO 16777223 "Z" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast !Ice Block
+/cancelaura [mod] Ice Block
+END

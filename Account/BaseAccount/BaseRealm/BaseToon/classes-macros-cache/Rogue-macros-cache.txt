@@ -1,0 +1,84 @@
+MACRO 16777228 "blind" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:ctrl/alt]Frostweave Net;[@focus,exists,harm,nodead,mod:shift][]Blind
+END
+MACRO 16777226 "C" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod]Shiv;Cloak of Shadows
+END
+MACRO 16777219 "CD" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]Berserking(Racial);[mod:ctrl]Vanish(Rank 3);[mod,spec:0]Preparation;[spec:2]Cold Blood;[mod]Adrenaline Rush;Blade Flurry
+/use [mod];14
+/use [mod];10
+END
+MACRO 16777224 "E" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus,exists,harm,nodead,mod:shift][mod][spec:1]Dismantle;[stance]Ambush;Backstab
+END
+MACRO 16777220 "even" INV_Misc_QuestionMark
+#showtooltip
+/cast [spec:1,mod][spec:2,nomod]Envenom;Eviscerate
+/stopattack [mod,spec:1]
+/equipslotцц [nomod,spec:1] 17 Axe
+END
+MACRO 16777227 "F" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod]Fan of Knives;[@target,mod:alt,help,nodead][@focus,exists,help,nodead][@targettarget,exists,help,nodead][]!Tricks of the Trade
+/startattack [combat,nostealth,nomod]
+/equipslotыы [nomod,spec:1] 17 Dagger
+END
+MACRO 16777229 "gauge" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus,exists,harm,nodead,mod:shift][]Gouge
+/stopattack [nomod]
+END
+MACRO 16777223 "kick" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus,exists,harm,nodead][]Kick
+END
+MACRO 16777221 "mid-click" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:ctrl,mod:shift]Величайший;[mod:ctrl,mod:alt]Замораживающая граната;[mod:alt]Global Thermal Sapper Charge;[mod:shift]Saronite Bomb;[mod]6;!Distract
+END
+MACRO 16777234 "opnr" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/castsequence reset=10 Коварный удар,Коварный удар,Мясорубка,Череда убийств,Коварный удар,Выброс адреналина,Коварный удар
+/use Berserking(Racial)
+/use 10
+END
+MACRO 16777233 "pull" INV_Misc_QuestionMark
+#showtooltip Fan of Knives
+/targetenemy [noexists]
+/startattack [nostealth]
+/cast [exists,harm,nodead]Fan of Knives
+END
+MACRO 16777218 "R" INV_Misc_QuestionMark
+#showtooltip
+/startattack [nomod,nostealth]
+/cast [mod]Kidney Shot;[stance]Cheap Shot;[spec:1]Sinister Strike; Mutilate
+/equipslotцц [nomod,spec:1] 17 Axe
+END
+MACRO 16777230 "rapt" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod]Expose Armor;Rupture
+END
+MACRO 16777232 "sap" INV_Misc_QuestionMark
+#showtooltip
+/cast Sap
+/targetenemy [noexists]
+END
+MACRO 16777231 "SnD" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus,exists,harm,nodead,mod:shift][]Slice and Dice
+END
+MACRO 16777217 "stspr" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]8;[mod]Sprint;!Stealth
+END
+MACRO 16777222 "thr" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod]!Throw;Deadly Throw
+/use [mod]10
+END

@@ -1,0 +1,73 @@
+MACRO 16777219 "C" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:ctrl]Cleansing Totem;[@focus,exists,harm,nodead,mod:shift][nomod]Purge; [@player,mod:alt,spec:2][spec:2]Cleanse Spirit;[@player,mod:alt][]Cure Toxins
+END
+MACRO 16777230 "CD" INV_Misc_QuestionMark
+#showtooltip
+/cast [spec:1,nomod]Feral Spirit;[spec:0]Elemental Mastery;[spec:0]Tidal Force;
+/cast [spec:2][mod]Berserking(Racial)
+/use [spec:2]10
+/petaggressive
+/petattack
+END
+MACRO 16777223 "E" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:ctrl]Lava Burst;[spec:1,nomod]Lava Lash;[spec:0,nomod]Thunderstorm;[@player,mod:alt,spec:2][spec:2,nomod]Riptide;[@player,mod:alt][]Chain Heal;
+/startattack [spec:1,nomod]
+/stopcasting [spec:1,nomod]
+END
+MACRO 16777229 "GT" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod]Tremor Totem;Grounding Totem
+END
+MACRO 16777228 "kick" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting [nomod:ctrl/alt]
+/cast [@focus,exists,harm,nodead,mod:ctrl][mod:alt]Hex;[@focus,exists,harm,nodead,mod:shift][]Wind Shear
+END
+MACRO 16777221 "light" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod]Chain Lightning;Lightning Bolt
+/startattack [spec:1]
+/stopcasting [spec:0]
+END
+MACRO 16777235 "mid-cl" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]Global Thermal Sapper Charge;[mod:ctrl]6;[mod]Frost Grenades;Saronite Bomb
+END
+MACRO 16777218 "R" INV_Misc_QuestionMark
+#showtooltip
+/cast [spec:1,nomod]Stormstrike;[mod:shift,spec:2]Earth Shield;[mod:alt][nomod]Water Shield;Lightning Shield
+/startattack [spec:1,nomod]
+/stopcasting [spec:1,nomod]
+/cancelaura [spec:1,nomod] Hand of Protection
+END
+MACRO 16777227 "run" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]10;[mod:ctrl]6;[mod]8;!Ghost Wolf
+/stopmacro [mod]
+END
+MACRO 16777220 "shock" INV_Misc_QuestionMark
+#showtooltip
+/targetenemy [noexists]
+/cast [mod:shift]Frost Shock;[mod]Earth Shock;Flame Shock
+/startattack
+/stopcasting [spec:1,nomod]
+END
+MACRO 16777234 "slow" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod]Earthbind Totem;Frost Shock
+END
+MACRO 16777222 "tots" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift]Totemic Recall;[mod:ctrl]Call of the Spirits;[mod:alt]Call of the Ancestors;Call of the Elements
+END
+MACRO 16777217 "wave" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift]Lesser Healing Wave;[@player,mod:alt][]Healing Wave
+END
+MACRO 16777225 "Z" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod,spec:1]Shamanistic Rage;Stoneclaw Totem
+/use [nomod,spec:1]10
+END
