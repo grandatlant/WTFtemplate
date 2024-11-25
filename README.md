@@ -3,6 +3,10 @@ Interface configuration for World of Warcraft (3.3.5)
 
 # Versatile releases
 
+## Release 1.1.0
+- Classes specific BaseToon settings created for macros and AtlasLoot, HealBot, TMW addons
+- Minor fixes
+
 ## Release 1.0.1
 - Global fix and more addon settings (still not for enUS)
 
