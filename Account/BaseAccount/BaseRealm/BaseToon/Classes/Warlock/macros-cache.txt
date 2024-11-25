@@ -1,0 +1,90 @@
+MACRO 16777240 "1" INV_Misc_QuestionMark
+#showtooltip
+/petattack [@focus,exists,harm,nodead,mod:shift,spec:1][@target,spec:1/2][@target,mod:alt]
+/cast [spec:0]Chaos Bolt;[spec:2]Incinerate;[@focus,exists,harm,nodead,mod:shift][]Haunt
+END
+MACRO 16777241 "2" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus,exists,harm,nodead,mod:shift,spec:1][spec:1]Unstable Affliction; [@focus,exists,harm,nodead,mod:shift][]Immolate
+END
+MACRO 16777243 "3" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:ctrl/alt]Searing Pain;[spec:0,nomod]Incinerate;[spec:2,mod]Shadow Bolt(Rank 1);[@focus,exists,harm,nodead,mod:shift][]Shadow Bolt
+END
+MACRO 16777238 "AoE" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]Hellfire;[mod,spec:1/2][nomod,spec:0]!Rain of Fire;Seed of Corruption
+END
+MACRO 16777228 "CD" INV_Misc_QuestionMark
+#showtooltip
+/cast [spec:2,nomod]!Metamorphosis
+/cast [spec:2,form,mod:shift]Demon Charge(Demon)
+/cast [form]!Shadow Cleave(Demon)
+/cast Blood Fury(Racial)
+/use 14
+/use 10
+/startattack
+END
+MACRO 16777222 "coil" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]Health Funnel;[@focus,exists,harm,nodead,mod:shift][]Death Coil
+/targetenemy [noexists]
+/cast [form]!Shadow Cleave(Demon)
+/startattack
+END
+MACRO 16777218 "curse1" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift]Curse of the Elements;[nomod,spec:1][mod,spec:2]Curse of Agony;Curse of Doom
+/cast [form]!Shadow Cleave(Demon)
+/startattack
+END
+MACRO 16777230 "curse2" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod,spec:2]Frostweave Net;[mod:alt]Curse of Weakness;[@focus,exists,harm,nodead,mod:shift,spec:0][nomod,spec:1]Curse of Exhaustion;Curse of Tongues
+/cast [form]!Shadow Cleave(Demon)
+/startattack
+END
+MACRO 16777233 "DC" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod]Demonic Circle: Summon;Demonic Circle: Teleport
+END
+MACRO 16777239 "def" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod]Soulshatter;Shadowflame
+/cast [form]!Shadow Cleave(Demon)
+/startattack
+END
+MACRO 16777232 "dot1" INV_Misc_QuestionMark
+#showtooltip
+/cast [spec:0,nomod]Conflagrate;[mod:ctrl/alt]Seed of Corruption;[@focus,exists,harm,nodead,mod:shift][]Corruption
+/cast [form]!Shadow Cleave(Demon)
+/startattack
+END
+MACRO 16777219 "drain" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift]Drain Soul;[mod]Drain Mana;Drain Life
+END
+MACRO 16777223 "FH_SP" INV_Misc_QuestionMark
+#showtooltip
+/use [@focus,exists,harm,nodead,mod:shift][@mouseover,exists,harm,nodead][@target,exists,nomod,harm,nodead]Spell Lock;[@player,mod:alt][@mouseover,exists,help,nodead][]Devour Magic
+END
+MACRO 16777237 "petsum" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift]Summon Succubus(Summon);[mod:alt]Summon Voidwalker(Summon);[mod:ctrl]Summon Felhunter(Summon);[spec:2]Summon Felguard(Summon);[spec:1]Summon Felhunter(Summon);Summon Imp(Summon)
+END
+MACRO 16777220 "Q" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:ctrl]Enslave Demon;[mod:alt]Banish;[@focus,exists,harm,nodead,mod:shift][]Fear
+END
+MACRO 16777221 "R" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:ctrl/alt]Hellfire;[spec:0,nomod]!Shadowfury;[@focus,exists,harm,nodead,mod:shift,spec:1][spec:1,nomod]Drain Soul;[@focus,exists,harm,nodead,mod:shift][]Soul Fire
+END
+MACRO 16777247 "seduc" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus,exists,harm,nodead,mod:shift][@mouseover,exists,harm,nodead][]Seduction
+END
+MACRO 16777246 "X" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]10;[mod:shift]8;[mod:ctrl]6;Howl of Terror
+END

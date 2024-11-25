@@ -1,8 +1,0 @@
-Frame: RR_RollFrame
-FrameLevel: 104
-Anchor: BOTTOM
-X: -320
-Y: 160
-W: 185
-H: 155
-

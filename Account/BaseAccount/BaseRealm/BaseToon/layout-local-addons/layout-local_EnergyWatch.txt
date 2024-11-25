@@ -1,8 +1,0 @@
-Frame: EnergyWatchBar
-FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: -80
-W: 115
-H: 25
-

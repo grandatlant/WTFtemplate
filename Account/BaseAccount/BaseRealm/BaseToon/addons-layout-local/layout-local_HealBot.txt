@@ -1,0 +1,15 @@
+Frame: HealBot_Action
+FrameLevel: 26
+Anchor: RIGHT
+X: -210
+Y: -20
+W: 138
+H: 40
+Frame: HealBot_Options
+FrameLevel: 1
+Anchor: CENTER
+X: -100
+Y: 70
+W: 495
+H: 555
+

@@ -1,0 +1,117 @@
+MACRO 16777238 "1" INV_Misc_QuestionMark
+#showtooltip
+/startattack [spec:2]
+/petattack [spec:1]
+/cast [@focus,exists,harm,nodead,mod:shift,spec:0][spec:0]  Black Arrow; [@focus,exists,harm,nodead,mod:shift,spec:2][spec:2]  Chimera Shot
+/cast !Kill Command
+/use 10
+END
+MACRO 16777220 "2" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:shift] Viper Sting; [mod] Scorpid Sting; Serpent Sting
+/cast [spec:2] !Kill Command
+/use 10
+END
+MACRO 16777235 "aggro" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod] Distracting Shot; [@focus,exists,help,nodead][@targettarget,exists,help,nodead][@target,exists,help,nodead][@mouseover,exists,help,nodead][@pet,exists,nodead][] Misdirection
+END
+MACRO 16777223 "aimed" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod][spec:1] Multi-Shot; Aimed Shot
+/cast [spec:2] !Kill Command
+/use 10
+END
+MACRO 16777225 "arcane" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [spec:0,nomod] Explosive Shot; Arcane Shot
+/cast [spec:2] !Kill Command
+/use 10
+END
+MACRO 16777224 "asp" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift]8; [mod:alt] !Aspect of the Cheetah; [mod] !Aspect of the Pack
+/stopmacro [mod:shift]
+/castsequence reset=mod:alt/ctrl/shift !Aspect of the Dragonhawk, !Aspect of the Viper
+END
+MACRO 16777233 "burst" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift,spec:2]Readiness
+/stopmacro [mod:shift,spec:2]
+/cast [mod]Berserking(Racial);Rapid Fire
+/cast [mod]Bestial Wrath;Call of the Wild
+/cast [mod]Kill Command;Rabid
+/cast [mod];Furious Howl
+/use 10
+/petattack
+END
+MACRO 16777229 "C" INV_Misc_QuestionMark
+#showtooltip
+/tar Shambling Horror
+/cast [mod:alt] Immolation Trap; [mod:ctrl] Snake Trap; [mod] Explosive Trap; [@focus,exists,harm,nodead,mod:shift][] Tranquilizing Shot
+/tar Lich King
+END
+MACRO 16777226 "CC" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt] Scare Beast; [@focus,exists,harm,nodead,mod:shift,spec:1][spec:1] Intimidation; [@focus,exists,harm,nodead,mod:shift][] Silencing Shot
+/stopattack [spec:0,nomod]
+END
+MACRO 16777232 "def" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod] Deterrence; Master's Call
+/cast [mod] ; Dash
+/cast [mod] ; [@player] Roar of Sacrifice
+/petfollow [nomod]
+END
+MACRO 16777230 "F" INV_Misc_QuestionMark
+#showtooltip
+/stopattack [mod:alt]
+/cast [mod:alt] Freezing Trap; [mod:ctrl] Snake Trap; [mod] Frost Trap; !Freezing Arrow
+END
+MACRO 16777227 "fake" INV_Misc_QuestionMark
+#showtooltip
+/stopattack [mod]
+/cast [mod] Feign Death; Disengage
+/cast [mod] Prowl; 15
+END
+MACRO 16777236 "KS" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/petattack [spec:2]
+/cast [@mouseover,exists,harm,nodead][] Kill Shot
+/cast [spec:2] !Kill Command
+/use 10
+/cancelaura Deterrence
+/cancelaura Hand of protection
+/cancelaura Divine Intervention
+END
+MACRO 16777218 "melee" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast Mongoose Bite
+/cast !Raptor Strike
+END
+MACRO 16777228 "mid-click" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt] Berserking(Racial); [mod] !Flare; !Volley
+END
+MACRO 16777219 "pHelp" INV_Misc_QuestionMark
+#showtooltip 
+/cast [mod:ctrl] Dismiss Pet; [mod] Feed Pet; [@pet,exists,nodead] Mend Pet; [@pet,exists,dead] Revive Pet; Call Pet
+END
+MACRO 16777237 "scatter" INV_Misc_QuestionMark
+#showtooltip
+/stopattack [nomod:shift]
+/cast [@focus,mod:shift,exists,harm,nodead][] Scatter Shot
+END
+MACRO 16777234 "slow" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod] Concussive Shot; Wing Clip
+/cast [mod] ; !Raptor Strike
+/cast [mod] ; Накинуться
+/cast [mod] ; Сеть
+/cast [mod] ; Ультразвук
+END

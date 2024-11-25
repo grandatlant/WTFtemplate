@@ -1,0 +1,83 @@
+MACRO 16777222 "C" INV_Misc_QuestionMark
+#showtooltip
+/cast [@player,mod:ctrl][mod:shift]Hand of Freedom;[@player,mod:alt][]Cleanse
+END
+MACRO 16777232 "CD1" INV_Misc_QuestionMark
+#showtooltip
+/cast [spec:1,mod:ctrl]Seal of Command;[mod:ctrl]Seal of Wisdom;[mod]Divine Shield;Avenging Wrath
+/cancelaura [mod:alt]Divine Shield
+/cancelaura [mod:alt]Hand of Protection
+/use [spec:2,nomod]Talisman of Resurgence
+/use [mod];10
+END
+MACRO 16777234 "CD2" INV_Misc_QuestionMark
+#showtooltip
+/cast [spec:2,mod:ctrl]Seal of Justice;[mod:ctrl]Seal of Corruption;[spec:1,nomod]Aura Mastery;l[spec:2,nomod]Divine Illumination;[mod:shift]Righteous Defense;Hand of Reckoning
+/use [spec:2,nomod]Meteorite Crystal
+END
+MACRO 16777235 "CD3" INV_Misc_QuestionMark
+#showtooltip
+/cast [spec:1][spec:2,nomod]Aura Mastery;Divine Sacrifice
+/cancelaura [mod:ctrl/alt]Divine Sacrifice
+END
+MACRO 16777224 "cons" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod]Exorcism;Consecration
+/targetenemy [noexists]
+/startattack
+END
+MACRO 16777226 "E" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]Holy Wrath;[mod:shift]Sacred Shield;[spec:1,nomod]Divine Storm;Shield of Righteousness
+/startattack [nomod]
+/cancelaura Curse of chaos
+END
+MACRO 16777223 "exor" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus,exists,harm,nodead,mod:shift][]Exorcism
+/targetenemy [noexists]
+/startattack [nomod]
+END
+MACRO 16777217 "F" INV_Misc_QuestionMark
+#showtooltip
+/cast [@player,mod:alt][nomod]Flash of Light;Holy Light
+END
+MACRO 16777237 "G" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod]Frostweave Net;Judgement of Justice
+END
+MACRO 16777219 "JoW" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus,exists,harm,nodead,mod:shift][]Judgement of Wisdom
+/startattack
+/targetenemy [noexists]
+/cancelaura Curse of chaos
+END
+MACRO 16777233 "plea" INV_Misc_QuestionMark
+#showtooltip Divine Plea
+/cast [nomod]Divine Plea
+/cancelaura [mod]Divine Plea
+END
+MACRO 16777225 "Q" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]Arcane Torrent(Racial);[mod:ctrl]Turn Evil;[spec:2]Beacon of Light;[@focus,mod,exists,harm,nodead,spec:1][spec:1]Repentance;[@focus,mod,exists,harm,nodead][]Avenger's Shield
+/cancelaura Soul fragment
+END
+MACRO 16777227 "R" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt]Turn Evil;[spec:1,nomod]Crusader Strike;[spec:1,nomod]Hummer of the Righteous;[nomod]Holy Shock;Hammer of Justice(Rank 4)
+/targetenemy [nomod,noexists,spec:1]
+/startattack [nomod,spec:1]
+/cancelaura Curse of chaos
+END
+MACRO 16777229 "RF" INV_Misc_QuestionMark
+#showtooltip Righteous Fury
+/cast [button:2];Righteous Fury
+/cancelaura [button:2]Righteous Fury
+END
+MACRO 16777236 "X" INV_Misc_QuestionMark
+#showtooltip
+/use [mod:alt]10;[mod:ctrl]6;[mod]8;Hammer of Wrath
+/use [mod];10
+/startattack [nomod]
+END

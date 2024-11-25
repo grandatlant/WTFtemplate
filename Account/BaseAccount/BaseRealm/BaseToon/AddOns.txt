@@ -1,8 +1,8 @@
 EnergyWatch: enabled
 InterruptBar: enabled
-Overachiever_Trade: disabled
-Overachiever_Tabs: disabled
-Overachiever: disabled
+Overachiever_Trade: enabled
+Overachiever_Tabs: enabled
+Overachiever: enabled
 SaySapped: enabled
 AtlasLootReverse: enabled
 AtlasLootFu: enabled
@@ -58,11 +58,11 @@ PlateBuffs: disabled
 Postal: enabled
 RaidRoll: enabled
 RaidRoll_LootTracker: enabled
-RaidAchievement: disabled
-RaidAchievement_WotlkHeroics: disabled
-RaidAchievement_Naxxramas: disabled
-RaidAchievement_Ulduar: disabled
-RaidAchievement_Icecrown: disabled
+RaidAchievement: enabled
+RaidAchievement_WotlkHeroics: enabled
+RaidAchievement_Naxxramas: enabled
+RaidAchievement_Ulduar: enabled
+RaidAchievement_Icecrown: enabled
 RangeDisplay: enabled
 sellgrey: enabled
 SimpleUnitFrames: enabled
@@ -99,3 +99,4 @@ DBM-Icecrown: enabled
 Quartz: enabled
 FloTotemBar: enabled
 _NPCScan: enabled
+RCLootCouncil: disabled
