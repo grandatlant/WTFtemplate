@@ -4,8 +4,11 @@ GatherMateDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["trackDistance"] = 180,
+			["minimapTooltips"] = false,
 			["show"] = {
 				["Herb Gathering"] = "active",
+				["Fishing"] = "active",
 				["Mining"] = "active",
 			},
 			["importers"] = {
@@ -21,7 +24,6 @@ GatherMateDB = {
 					["lastImport"] = 274,
 				},
 			},
-			["minimapTooltips"] = false,
 		},
 	},
 }
