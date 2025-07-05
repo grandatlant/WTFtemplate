@@ -2,8 +2,8 @@
 Engraved_Settings = {
 	["UnusableOpacity"] = 0.3,
 	["TimerMethod"] = "Fill",
-	["AlmostOpacity"] = 0.7,
 	["InCombatOpacity"] = 1,
+	["AlmostOpacity"] = 0.7,
 	["RuneColor"] = {
 		{
 			0.8, -- [1]
@@ -26,8 +26,8 @@ Engraved_Settings = {
 			0.7, -- [3]
 		}, -- [4]
 	},
-	["OutOfCombatOpacity"] = 1,
 	["Locked"] = true,
+	["OutOfCombatOpacity"] = 1,
 	["Position"] = {
 		"CENTER", -- [1]
 		"CENTER", -- [2]
