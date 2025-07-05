@@ -25,7 +25,7 @@ MACRO 16777224 "mbuff" INV_Misc_QuestionMark
 END
 MACRO 16777220 "Q" INV_Misc_QuestionMark
 #showtooltip
-/cast [mod:ctrl]Shackle Undead;[mod:alt][spec:1/2]Fade;[@focus,exists,harm,nodead,mod:shift][]Silence
+/cast [mod:ctrl]Shackle Undead;[mod:alt][spec:2]Fade;[@focus,exists,harm,nodead,mod:shift][]Silence
 END
 MACRO 16777225 "R" INV_Misc_QuestionMark
 #showtooltip
@@ -42,7 +42,7 @@ MACRO 16777237 "Rfly" INV_Misc_QuestionMark
 END
 MACRO 16777217 "sbuff" INV_Misc_QuestionMark
 #showtooltip
-/castsequence reset=5 Inner Fire,Power Word: Fortitude,Divine Spirit,Shadow Protection
+/castsequence reset=5 Inner Fire,Power Word: Fortitude,Divine Spirit,Shadow Protection,Vampiric Embrace,!Shadowform
 END
 MACRO 16777236 "sdot" INV_Misc_QuestionMark
 #showtooltip
@@ -63,7 +63,7 @@ MACRO 16777221 "SWD" INV_Misc_QuestionMark
 END
 MACRO 16777238 "T" INV_Misc_QuestionMark
 #showtooltip
-/cast [nomod,spec:0]Psichic Horror;[nomod,spec:0]Desperate Prayer; [@player,mod:ctrl/alt][@mouseover,exists,help,nodead][]Fear Ward
+/cast [nomod,spec:1]Psychic Horror;[nomod,spec:0]Desperate Prayer; [@player,mod:ctrl/alt][@mouseover,exists,help,nodead][]Fear Ward
 END
 MACRO 16777242 "VT" INV_Misc_QuestionMark
 #showtooltip

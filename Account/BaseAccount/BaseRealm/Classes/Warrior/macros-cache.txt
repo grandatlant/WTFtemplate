@@ -97,7 +97,7 @@ MACRO 16777219 "stance" INV_Misc_QuestionMark
 /cast [mod:alt]Berserker Stance;[mod]Battle Stance;Defensive Stance
 /stopmacro [spec:2]
 /equip Shadow's Edge
-/equipslot [mod] 17 Citadel Enforcer's Claymore ; 17 Forlorn Barrier
+/equipslot [mod] 17 Glorenzelg ; 17 Forlorn Barrier
 END
 MACRO 16777239 "strike" INV_Misc_QuestionMark
 #showtooltip

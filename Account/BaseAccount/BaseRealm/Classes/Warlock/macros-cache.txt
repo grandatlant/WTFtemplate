@@ -21,8 +21,7 @@ MACRO 16777228 "CD" INV_Misc_QuestionMark
 /cast [spec:2,form,mod:shift]Demon Charge(Demon)
 /cast [form]!Shadow Cleave(Demon)
 /cast Blood Fury(Racial)
-/use 14
-/use 10
+/use [mod] 14; 10
 /startattack
 END
 MACRO 16777222 "coil" INV_Misc_QuestionMark
@@ -50,7 +49,7 @@ MACRO 16777233 "DC" INV_Misc_QuestionMark
 END
 MACRO 16777239 "def" INV_Misc_QuestionMark
 #showtooltip
-/cast [mod]Soulshatter;Shadowflame
+/cast [mod:alt]8;[mod]Soulshatter;Shadowflame
 /cast [form]!Shadow Cleave(Demon)
 /startattack
 END
