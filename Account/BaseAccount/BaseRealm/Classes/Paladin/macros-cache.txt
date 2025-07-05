@@ -12,12 +12,12 @@ MACRO 16777232 "CD1" INV_Misc_QuestionMark
 END
 MACRO 16777234 "CD2" INV_Misc_QuestionMark
 #showtooltip
-/cast [spec:2,mod:ctrl]Seal of Justice;[mod:ctrl]Seal of Corruption;[spec:1,nomod]Aura Mastery;l[spec:2,nomod]Divine Illumination;[mod:shift]Righteous Defense;Hand of Reckoning
+/cast [spec:2,mod:ctrl]Seal of Justice;[mod:ctrl]Seal of Corruption;[spec:0,nomod]Aura Mastery;[spec:2,nomod]Divine Illumination;[mod:shift]Righteous Defense;Hand of Reckoning
 /use [spec:2,nomod]Meteorite Crystal
 END
 MACRO 16777235 "CD3" INV_Misc_QuestionMark
 #showtooltip
-/cast [spec:1][spec:2,nomod]Aura Mastery;Divine Sacrifice
+/cast [spec:0][spec:2,nomod]Aura Mastery;Divine Sacrifice
 /cancelaura [mod:ctrl/alt]Divine Sacrifice
 END
 MACRO 16777224 "cons" INV_Misc_QuestionMark
@@ -28,7 +28,7 @@ MACRO 16777224 "cons" INV_Misc_QuestionMark
 END
 MACRO 16777226 "E" INV_Misc_QuestionMark
 #showtooltip
-/cast [mod:alt]Holy Wrath;[mod:shift]Sacred Shield;[spec:1,nomod]Divine Storm;Shield of Righteousness
+/cast [mod:alt]Holy Wrath;[mod:shift]Sacred Shield;[spec:0,nomod]Divine Storm;Shield of Righteousness
 /startattack [nomod]
 /cancelaura Curse of chaos
 END
@@ -60,12 +60,12 @@ MACRO 16777233 "plea" INV_Misc_QuestionMark
 END
 MACRO 16777225 "Q" INV_Misc_QuestionMark
 #showtooltip
-/cast [mod:alt]Arcane Torrent(Racial);[mod:ctrl]Turn Evil;[spec:2]Beacon of Light;[@focus,mod,exists,harm,nodead,spec:1][spec:1]Repentance;[@focus,mod,exists,harm,nodead][]Avenger's Shield
+/cast [mod:alt]Arcane Torrent(Racial);[mod:ctrl]Turn Evil;[spec:2]Beacon of Light;[@focus,mod,exists,harm,nodead,spec:1][spec:1] Avenger's Shield
 /cancelaura Soul fragment
 END
 MACRO 16777227 "R" INV_Misc_QuestionMark
 #showtooltip
-/cast [mod:alt]Turn Evil;[spec:1,nomod]Crusader Strike;[spec:1,nomod]Hummer of the Righteous;[nomod]Holy Shock;Hammer of Justice(Rank 4)
+/cast [mod:alt]Turn Evil;[mod]Hammer of Justice(Rank 4);[spec:2]Holy Shock; Hammer of the Righteous
 /targetenemy [nomod,noexists,spec:1]
 /startattack [nomod,spec:1]
 /cancelaura Curse of chaos
@@ -74,6 +74,15 @@ MACRO 16777229 "RF" INV_Misc_QuestionMark
 #showtooltip Righteous Fury
 /cast [button:2];Righteous Fury
 /cancelaura [button:2]Righteous Fury
+END
+MACRO 16777238 "tst" INV_Misc_QuestionMark
+/stopmacro [noharm]
+/stopmacro [@targettarget,nohelp]
+/focus
+/cleartarget
+/cast [@focus,@focustargettarget,exists]Hand of Reckoning
+/clearfocus
+/targetlasttarget
 END
 MACRO 16777236 "X" INV_Misc_QuestionMark
 #showtooltip

@@ -133,7 +133,7 @@ TellMeWhen_Settings = {
 					["CooldownShowWhen"] = "usable",
 					["Unit"] = "player",
 					["OnlyMine"] = false,
-					["Name"] = "Elusive Power;",
+					["Name"] = "Flame of the Heavens;Elusive Power;",
 					["CooldownType"] = "spell",
 					["BuffShowWhen"] = "present",
 					["Type"] = "buff",
@@ -146,7 +146,7 @@ TellMeWhen_Settings = {
 					["CooldownShowWhen"] = "usable",
 					["Unit"] = "player",
 					["OnlyMine"] = false,
-					["Name"] = "Eradication;",
+					["Name"] = "Eradication;Shadow Trance;",
 					["CooldownType"] = "spell",
 					["BuffShowWhen"] = "present",
 					["Type"] = "buff",
@@ -505,7 +505,7 @@ TellMeWhen_Settings = {
 				}, -- [38]
 				{
 					["WpnEnchantType"] = "mainhand",
-					["ShowTimer"] = false,
+					["ShowTimer"] = true,
 					["BuffOrDebuff"] = "HELPFUL",
 					["CooldownShowWhen"] = "usable",
 					["Unit"] = "player",
@@ -518,7 +518,7 @@ TellMeWhen_Settings = {
 				}, -- [39]
 				{
 					["WpnEnchantType"] = "mainhand",
-					["ShowTimer"] = false,
+					["ShowTimer"] = true,
 					["BuffOrDebuff"] = "HELPFUL",
 					["CooldownShowWhen"] = "usable",
 					["Unit"] = "player",
@@ -531,7 +531,7 @@ TellMeWhen_Settings = {
 				}, -- [40]
 				{
 					["WpnEnchantType"] = "mainhand",
-					["ShowTimer"] = false,
+					["ShowTimer"] = true,
 					["BuffOrDebuff"] = "HELPFUL",
 					["CooldownShowWhen"] = "usable",
 					["Unit"] = "player",
@@ -782,7 +782,7 @@ TellMeWhen_Settings = {
 					["CooldownShowWhen"] = "usable",
 					["Unit"] = "player",
 					["OnlyMine"] = false,
-					["Name"] = "Elusive Power;",
+					["Name"] = "Flame of the Heavens;Elusive Power;",
 					["CooldownType"] = "spell",
 					["BuffShowWhen"] = "present",
 					["Type"] = "buff",
@@ -882,11 +882,11 @@ TellMeWhen_Settings = {
 				{
 					["WpnEnchantType"] = "mainhand",
 					["ShowTimer"] = true,
-					["BuffOrDebuff"] = "HARMFUL",
+					["BuffOrDebuff"] = "HELPFUL",
 					["CooldownShowWhen"] = "usable",
-					["Unit"] = "target",
-					["OnlyMine"] = true,
-					["Name"] = "47813;47836;",
+					["Unit"] = "player",
+					["OnlyMine"] = false,
+					["Name"] = "Life Tap;",
 					["CooldownType"] = "spell",
 					["BuffShowWhen"] = "always",
 					["Type"] = "buff",
@@ -899,7 +899,7 @@ TellMeWhen_Settings = {
 					["CooldownShowWhen"] = "usable",
 					["Unit"] = "target",
 					["OnlyMine"] = true,
-					["Name"] = "47864;47865;47867;11719;50511;18223;",
+					["Name"] = "47813;47836;",
 					["CooldownType"] = "spell",
 					["BuffShowWhen"] = "always",
 					["Type"] = "buff",
@@ -1172,11 +1172,11 @@ TellMeWhen_Settings = {
 					["CooldownShowWhen"] = "usable",
 					["Unit"] = "player",
 					["OnlyMine"] = false,
-					["Name"] = "",
+					["Name"] = "Life Tap;",
 					["CooldownType"] = "spell",
 					["BuffShowWhen"] = "present",
 					["Type"] = "buff",
-					["Enabled"] = false,
+					["Enabled"] = true,
 				}, -- [40]
 				{
 					["WpnEnchantType"] = "mainhand",

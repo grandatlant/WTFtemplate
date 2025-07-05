@@ -12,8 +12,8 @@ MACRO 16777218 "blood" INV_Misc_QuestionMark
 END
 MACRO 16777224 "CD1" INV_Misc_QuestionMark
 #showtooltip
-/cast [mod:alt]Death Pact;[spec:2,mod:ctrl]Blood Presence;[mod:ctrl]Frost Presence;[spec:2,mod]Bone Shield;[spec:2]Summon Gargoyle;[mod]Vampiric Blood;[@mouseover,exists,help,nodead][]Hysteria
-/use [spec:1,mod:shift]Ick's Rotting Thumb
+/cast [mod:alt]Death Pact;[mod:ctrl]Blood Presence;[spec:2,mod]Bone Shield;[spec:2]Summon Gargoyle;[mod]Vampiric Blood;[@mouseover,exists,help,nodead][]Hysteria
+/use [spec:1,mod:shift]Ick's Rotting Thum
 END
 MACRO 16777225 "CD2" INV_Misc_QuestionMark
 #showtooltip
@@ -51,17 +51,17 @@ MACRO 16777227 "grip" INV_Misc_QuestionMark
 /cancelaura Hand of Protection
 /cancelaura Divine Intervention
 END
-MACRO 16777232 "opnr" INV_Misc_QuestionMark
+MACRO 16777232 "opn" INV_Misc_QuestionMark
 #showtooltip
 /castsequence reset=10 Icy Touch,Plague Strike,Blood Strike,Blood Strike,Scourge Strike,Empower Rune Weapon,Scourge Strike,Summon Gargoyle,Scourge Strike,Blood Strike,Blood Strike,Blood Tap,Pestilence,Death Coil,Scourge Strike
 END
-MACRO 16777234 "opnr2" INV_Misc_QuestionMark
+MACRO 16777234 "opn2" INV_Misc_QuestionMark
 #showtooltip
 /castsequence reset=10 Icy Touch,Plague Strike,Blood Strike,Blood Strike,Scourge Strike,Empower Rune Weapon,Summon Gargoyle,Blood Presence,Blood Strike,Icy Touch,Plague Strike,Scourge Strike,Death Coil
 END
 MACRO 16777217 "rac" INV_Misc_QuestionMark
 #showtooltip
-/cast [spec:1,mod:ctrl]Blood Presence;[mod:ctrl]Frost Presence; Blood Fury(Racial)
+/cast [mod:ctrl]Frost Presence; Blood Fury(Racial)
 END
 MACRO 16777228 "runic" INV_Misc_QuestionMark
 #showtooltip

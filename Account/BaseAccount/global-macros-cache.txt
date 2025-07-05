@@ -33,9 +33,9 @@ MACRO 6 "budge" Ability_Creature_Cursed_01
 /script local function buy (n,q) for i=1,100 do if n==GetMerchantItemInfo(i) then BuyMerchantItem(i,q) end end end buy("Emblem of Conquest",5) buy("Emblem of Valor",5) buy("Emblem of Heroism",5)
 END
 MACRO 5 "cam" Ability_CheapShot
-/console CameraDistanceMaxFactor 9
-/console CameraDistanceMax 99
-/run CameraZoomOut(99)
+/console CameraDistanceMaxFactor 5
+/console CameraDistanceMax 55
+/run CameraZoomOut(55)
 /run CreateFrame("frame",nil,UIParent):SetScript("OnUpdate",CombatLogClearEntries)
 END
 MACRO 38 "ftSwap" Ability_Druid_HealingInstincts
@@ -116,6 +116,7 @@ MACRO 52 "pet" INV_Misc_QuestionMark
 END
 MACRO 63 "RO" Ability_Creature_Cursed_02
 /stopmacro [nomod]
+/rw Raid is over!
 /run local n=UnitName("player");for i=1,40 do u="raid"..i;if UnitExists(u) and UnitName(u)~=n then UninviteUnit(u) end end
 END
 MACRO 1 "roll" Ability_Creature_Cursed_04
