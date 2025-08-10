@@ -1,21 +1,21 @@
 MACRO 16777230 "attack" INV_Misc_QuestionMark
 #showtooltip
 /startattack
-/cast [mod,spec:2]Concussion Blow;[spec:2]Devastate;[@focus,exists,harm,nodead,mod,spec:0][]Bloodthirst
+/cast [mod,spec:0]Concussion Blow;[spec:0]Devastate;[@focus,exists,harm,nodead,mod,spec:2][spec:2]Mortal Strike;Bloodthirst
 /cancelaura Hand of protection
-/stopmacro [spec:0]
-/cast [mod,spec:1]!Cleave;[nomod]!Heroic Strike
+/stopmacro [spec:2]
+/cast [mod]!Cleave;!Heroic Strike
 END
 MACRO 16777231 "C" INV_Misc_QuestionMark
 #showtooltip
 /startattack
-/cast [spec:0,mod]Sweeping Strikes;[spec:2,mod]Shockwave;[stance:3]Whirlwind;Thunder Clap
+/cast [spec:2,mod]Sweeping Strikes;[spec:0,mod]Shockwave;[stance:3]Whirlwind;Thunder Clap
 /cancelaura Hand of protection
 /cast [nomod]!Cleave
 END
 MACRO 16777240 "CD" INV_Misc_QuestionMark
 #showtooltip
-/cast [mod:ctrl]Intimidating Shout;[mod:alt]Recklessness;[mod]Retaliation;[spec:2]Last Stand; Death Wish
+/cast [mod:ctrl]Intimidating Shout;[mod:alt]Recklessness;[mod]Retaliation;[spec:2] Bladestorm ; Death Wish
 /use [nomod]10
 /use [nomod]Blood Fury(Racial)
 /use [nomod]Ick's Rotting Thumb
@@ -23,7 +23,7 @@ END
 MACRO 16777229 "charg" INV_Misc_QuestionMark
 #showtooltip
 /cast [@targettarget,exists,help,nodead,mod:alt/ctrl][help,nodead]Intervene;[mod]Intercept;Charge
-/stopmacro [spec:2]
+/stopmacro [spec:0]
 /cast [help,nodead][mod:alt/ctrl]Defensive Stance;[mod,nostance:3]Berserker Stance;[nomod,nostance:1]Battle Stance
 END
 MACRO 16777237 "cshout" INV_Misc_QuestionMark
@@ -36,7 +36,7 @@ MACRO 16777222 "E" INV_Misc_QuestionMark
 /cast [stance:3]Whirlwind;[stance:2]Revenge;[@focus,exists,harm,nodead,mod][]Overpower
 /cancelaura Hand of protection
 /cancelaura Bladestorm
-/stopmacro [spec:0]
+/stopmacro [spec:2]
 /cast [mod]!Cleave;!Heroic Strike
 END
 MACRO 16777241 "Fslam" INV_Misc_QuestionMark
@@ -61,6 +61,7 @@ MACRO 16777235 "hthrow" INV_Misc_QuestionMark
 /cast [mod]Shattering Throw;Heroic Throw
 /cast [mod,nostance:1]Battle Stance
 /cast [mod,stance:1]Bloodrage
+/use 10
 END
 MACRO 16777242 "inter" INV_Misc_QuestionMark
 #showtooltip
@@ -71,8 +72,8 @@ END
 MACRO 16777225 "Q" INV_Misc_QuestionMark
 #showtooltip
 /startattack
-/cast [spec:1]Pummel;[nomod,stance:2]Taunt;[stance:1/2]Shield Bash;Pummel
-/cast [spec:1,nostance:3]Berserker Stance
+/cast [spec:1/2]Pummel;[nomod,stance:2]Taunt;[stance:1/2]Shield Bash;Pummel
+/cast [spec:1/2,nostance:3]Berserker Stance
 END
 MACRO 16777220 "rage" INV_Misc_QuestionMark
 #showtooltip
@@ -81,23 +82,25 @@ END
 MACRO 16777226 "sdef" INV_Misc_QuestionMark
 #showtooltipя
 /cast [mod:ctrl]Enraged Regeneration;[mod]Shield Wall;Shield Block
-/cast [nomod:ctrl,nostance:2]Defensive Stance
-/equip [spec:0] Mitrios
-/equip [spec:1] Forlorn Barrier
+/stopmacro [mod:ctrl]
+/cast [nostance:2]Defensive Stance
+/equip [spec:2] Gutbuster
+/equip [spec:1/2] Crygil's Discarded
 END
 MACRO 16777238 "spell" INV_Misc_QuestionMark
 #showtooltip
 /startattack
 /cast [mod:shift]Shield Bash;[mod]Spell Reflection;Shield Slam
-/cast [spec:2,mod,nostance:1/2]Defensive Stance;[mod,nostance:1/2]Battle Stance
-/equip [spec:1] Forlorn Barrier
+/cast [spec:0,mod,nostance:1/2]Defensive Stance;[mod,nostance:1/2]Battle Stance
+/equip [spec:2] Gutbuster
+/equip [spec:1/2] Crygil's Discarded
 END
 MACRO 16777219 "stance" INV_Misc_QuestionMark
 #showtooltip
 /cast [mod:alt]Berserker Stance;[mod]Battle Stance;Defensive Stance
-/stopmacro [spec:2]
-/equip Shadow's Edge
-/equipslot [mod] 17 Glorenzelg ; 17 Forlorn Barrier
+/stopmacro [spec:0]
+/equip [mod][spec:1]Shadow's Edge; Gutbuster
+/equipslot [mod] 17 Edge of Ruin ; 17 Crygil's Discarded
 END
 MACRO 16777239 "strike" INV_Misc_QuestionMark
 #showtooltip
